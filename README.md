@@ -1,5 +1,8 @@
 # studylane_api_documentation
 Studylane APIs Documentation
 
-follow instruction : 
- https://github.com/Wiredcraft/carte#install
+# Site
+## https://jaybengco.github.io/studylane_api_documentation/
+
+# HOW TO RUN on Local : 
+## https://github.com/Wiredcraft/carte#install
