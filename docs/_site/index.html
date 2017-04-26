@@ -13,6 +13,8 @@
 <ul id='links'>
   
     
+  
+    
     <li><a href='#/response-status-codes'>Response status codes</a></li>
     
   
@@ -49,10 +51,52 @@
     </ul>
   </li>
 
+  <li><h2>SAMPLENESS</h2>
+    <ul>
+    
+              
+        <li class=''><a href='#'></a></li>
+      
+    
+              
+        <li class='GET'><a href='#/create-sample'>show a thing</a></li>
+      
+    
+    </ul>
+  </li>
+
 </ul>
 </nav>
 
 <section id='content'>
+
+  <article class='GET'>
+    <a name='/create-sample' href='#/create-sample'><h2><code><b>GET</b> _posts/2017-04-25-create-sample.md</code> show a thing</h2></a>
+    <section class='body'>
+      <p>This is something for testing.</p>
+
+<h3 id="request">Request</h3>
+
+<ul>
+  <li><strong><code>:id</code></strong> idness.</li>
+  <li>The headers must include a <strong>valid authentication token</strong>.</li>
+  <li><strong>The body is omitted</strong>.</li>
+</ul>
+
+<h3 id="response">Response</h3>
+
+<p>Sends back a collection of things.</p>
+
+<p><code>Status: 200 Deleted</code>
+<code>{
+    code: 200,
+    message: 'Your thing (id: 736) was deleted'
+}</code></p>
+
+<p>For errors responses, see the <a href="#response-status-codes">response status codes documentation</a>.</p>
+
+    </section>
+  </article>
 
   <article class=''>
     <a name='/response-status-codes' href='#/response-status-codes'><h2>Response status codes</h2></a>
