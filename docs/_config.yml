@@ -1,6 +1,7 @@
 ---
 exclude: ['README.markdown']
 permalink: ':title'
-pygments: true
+highlighter: true
 safe: false
 title: 'Studylane v1.0'
+
