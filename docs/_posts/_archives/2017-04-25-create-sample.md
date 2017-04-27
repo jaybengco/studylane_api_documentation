@@ -1,6 +1,6 @@
 ---
 category: SAMPLENESS
-path: '/sample/:id'
+endpoint: '/sample/:id'
 title: 'show a thing'
 type: 'GET'
 

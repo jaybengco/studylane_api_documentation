@@ -1,20 +1,20 @@
 ---
-category: Stuff
-path: '/stuff'
-title: 'Post a thing'
-type: 'POST'
-
+category: Student
+endpoint: '/stuff/:id'
+title: 'POST with Authentication'
+type : 'POST'
 layout: nil
 ---
-
-This method allows users to create a new thing.
 
 ### Request
 
 * The headers must include a **valid authentication token**.
+* The headers must set content-type **application-json**.
 * **The body can't be empty** and must include at least the name attribute, a `string` that will be used as the name of the thing.
 
-```Authentication: bearer TOKEN```
+```x-access-token: TOKEN
+Content-Type: application/json```
+
 ```{
     name: 'My new thing'
 }```
@@ -28,5 +28,3 @@ This method allows users to create a new thing.
     id: new_thing,
     name: 'My new thing'
 }```
-
-For errors responses, see the [response status codes documentation](#response-status-codes).
