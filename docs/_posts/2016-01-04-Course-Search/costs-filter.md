@@ -16,8 +16,6 @@ layout: nil
 
 ```n/a```
 
-**Endpoint : `URL` /api/course-search/filter/costs** 
-
 ### Response
 
 **If succeeds**, returns : 

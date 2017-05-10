@@ -40,9 +40,6 @@ layout: nil
 	</tr>    
 </table>
 
-
-**Endpoint : `URL`/api/course-search/filter/cities** 
-
 ### Response
 
 **If succeeds**, returns : 
