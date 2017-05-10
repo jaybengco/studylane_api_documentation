@@ -10,8 +10,7 @@ layout: nil
 
 **Endpoint** : **`URL`** /api/course-search/filter/states
 
-* The headers must set Content-Type.
-* The headers must set x-project-id.
+* The headers must be properly [set](#/Info-setting-headers).
 
 **Request Headers** :
 

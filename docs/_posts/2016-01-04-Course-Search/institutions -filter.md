@@ -9,14 +9,7 @@ layout: nil
 ### Request
 
 **Endpoint** : **`URL`** /api/course-search/filter/institutions
-
-* The headers must set Content-Type.
-* The headers must set x-project-id.
-
-**Request Headers** :
-
-```Content-Type: application/json
-x-project-id: PROJECT_ID```
+* The headers must be properly [set](#/Info-setting-headers).
 
 **Request Body**: 
 

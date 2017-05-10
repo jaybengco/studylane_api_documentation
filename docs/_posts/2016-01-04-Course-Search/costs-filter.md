@@ -8,6 +8,10 @@ layout: nil
 
 ### Request
 
+**Endpoint** : **`URL`** /api/course-search/filter/costs
+
+* The headers must be properly [set](#/Info-setting-headers).
+
 **Request Body**: 
 
 ```n/a```

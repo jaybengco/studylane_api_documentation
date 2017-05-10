@@ -8,6 +8,10 @@ layout: nil
 
 ### Request
 
+**Endpoint** : **`URL`** /api/course-search/filter/cities
+
+* The headers must be properly [set](#/Info-setting-headers).
+
 **Request Body**: 
 
 ```{
