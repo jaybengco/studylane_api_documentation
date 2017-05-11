@@ -15,7 +15,10 @@ layout: nil
 
 ```{
   "scholarshipId": 29,
-  "countryName": "Australia"
+  "countryId": "Australia",
+	"cityId": "",
+	"stateId": ""
+
 }```
 
 
@@ -31,12 +34,24 @@ layout: nil
         <td class="table-required"> No </td>
 		<td class="table-data-type"> Integer </td>
 		<td class="table-description"> Scholarship ID</td>
-	</tr>  
+	</tr>
 	<tr>
 		<td class="table-fieldname"> countryName </td>
         <td class="table-required"> No </td>
-		<td class="table-data-type"> String[max:50] </td>
-		<td class="table-description"> Country Name </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> Country name</td>
+	</tr>
+	<tr>
+		<td class="table-fieldname"> cityId </td>
+        <td class="table-required"> No </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> City</td>
+	</tr> 
+	<tr>
+		<td class="table-fieldname"> stateId </td>
+        <td class="table-required"> No </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> State</td>
 	</tr>   
 </table>
 
