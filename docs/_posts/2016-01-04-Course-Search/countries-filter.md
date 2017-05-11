@@ -16,7 +16,7 @@ layout: nil
 **Request Body**: 
 
 ```{
-  "scholarshipId": 29,
+  "scholarshipId": 29
 }```
 
 

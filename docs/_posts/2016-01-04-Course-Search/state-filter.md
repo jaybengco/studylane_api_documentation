@@ -22,8 +22,7 @@ x-project-id: PROJECT_ID```
 ```{
   "scholarshipId": 0,
   "countryId": "Australia",
-  "cityId": "",
-  "stateId": ""
+  "providerId": ""
 }```
 
 
