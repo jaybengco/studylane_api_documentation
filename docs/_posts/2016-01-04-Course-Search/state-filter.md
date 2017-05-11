@@ -22,9 +22,8 @@ x-project-id: PROJECT_ID```
 ```{
   "scholarshipId": 0,
   "countryId": "Australia",
-	"cityId": "",
-	"stateId": ""
-
+  "cityId": "",
+  "stateId": ""
 }```
 
 
@@ -38,11 +37,11 @@ x-project-id: PROJECT_ID```
 	<tr>
 		<td class="table-fieldname"> scholarshipId </td>
         <td class="table-required"> No </td>
-		<td class="table-data-type"> Integer </td>
+		<td class="table-data-type"> String </td>
 		<td class="table-description"> Scholarship ID</td>
 	</tr>
 	<tr>
-		<td class="table-fieldname"> countryName </td>
+		<td class="table-fieldname"> countryId </td>
         <td class="table-required"> No </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> Country name</td>

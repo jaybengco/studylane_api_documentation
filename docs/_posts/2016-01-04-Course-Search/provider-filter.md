@@ -16,9 +16,8 @@ layout: nil
 ```{
   "scholarshipId": 29,
   "countryId": "Australia",
-	"cityId": "",
-	"stateId": ""
-
+  "cityId": "",
+  "stateId": ""
 }```
 
 
@@ -32,7 +31,7 @@ layout: nil
 	<tr>
 		<td class="table-fieldname"> scholarshipId </td>
         <td class="table-required"> No </td>
-		<td class="table-data-type"> Integer </td>
+		<td class="table-data-type"> String </td>
 		<td class="table-description"> Scholarship ID</td>
 	</tr>
 	<tr>
