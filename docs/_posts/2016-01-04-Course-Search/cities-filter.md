@@ -15,9 +15,10 @@ layout: nil
 **Request Body**: 
 
 ```{
-  "scholarshipId": "54",
-  "countryId": 1,
-  "stateId": 2
+  "scholarshipId": 2,
+  "countryId": "Australia",
+  "stateId": "New South Wales",
+  "institutionId": "pid-mi-au-9607"
 }```
 
 <table>
@@ -30,21 +31,27 @@ layout: nil
 	<tr>
 		<td class="table-fieldname"> scholarshipId </td>
     <td class="table-required"> No </td>
-		<td class="table-data-type"> String </td>
-		<td class="table-description">  </td>
+		<td class="table-data-type"> Integer </td>
+		<td class="table-description"> Scholarship Id </td>
 	</tr>  
 	<tr>
 		<td class="table-fieldname"> countryId </td>
     <td class="table-required"> No </td>
 		<td class="table-data-type"> String </td>
-		<td class="table-description">  </td>
+		<td class="table-description"> Country name (e.g. Australia) </td>
 	</tr>    
 	<tr>
 		<td class="table-fieldname"> stateId </td>
     <td class="table-required"> No </td>
 		<td class="table-data-type"> String </td>
-		<td class="table-description">  </td>
-	</tr>    
+		<td class="table-description"> State name (e.g. New South Wales in Australia) </td>
+	</tr>   
+	<tr>
+		<td class="table-fieldname"> institutionId </td>
+    <td class="table-required"> No </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> Institution Id (e.g. pid-mi-au-9607, pid-mi-au-9792) </td>
+	</tr>  
 </table>
 
 ### Response
@@ -59,9 +66,9 @@ layout: nil
   "hostname": "[hostname]",
   "reference_data": [
     {
-      "id": 64,
-      "name": "Adelaide",
-      "stateId": 3
+      "city_id": "Camperdown",
+      "city_name": "Camperdown",
+      "state_name": "New South Wales"
     },
     ...
   ]
@@ -70,27 +77,24 @@ layout: nil
 
 
 <table>
-
 	<tr>
 		<th class="table-fieldname"> Fieldname </th>
 		<th class="table-data-type"> Data type </th>
 		<th class="table-description"> Description </th>
 	</tr>
 	<tr>
-		<td class="table-fieldname"> id </td>
-		<td class="table-data-type"> Integer </td>
-		<td class="table-description"> City ID </td>
+		<td class="table-fieldname"> city_id </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> City name </td>
 	</tr>  
 	<tr>
-		<td class="table-fieldname"> name </td>
+		<td class="table-fieldname"> city_name </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> City Name </td>
 	</tr>  
 	<tr>
-		<td class="table-fieldname"> stateId </td>
-		<td class="table-data-type"> Integer </td>
-		<td class="table-description">State Id</td>
+		<td class="table-fieldname"> state_name </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description">State Name </td>
 	</tr>
-
 </table>
-
