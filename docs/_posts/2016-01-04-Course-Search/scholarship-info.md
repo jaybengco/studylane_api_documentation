@@ -10,7 +10,7 @@ layout: nil
 
 **Endpoint** : **`URL`** /api/course-search/scholarship/:id
 
-* **`:scholarship_id`** is the scholarship’s identity to retrieve.
+* **`:id`** is the scholarship’s identity to retrieve.
 * The headers must be properly [set](#/Info-setting-headers).
 
 ### Response
