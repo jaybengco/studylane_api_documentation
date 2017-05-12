@@ -1,14 +1,14 @@
 ---
 category: Course Search
-endpoint: '/api/course-search/filter/scholarship/:scholarship_id'
-title: 'Scholarship Filter'
+endpoint: '/api/course-search/scholarship/:id'
+title: 'Scholarship Info'
 type : 'POST'
 layout: nil
 ---
 
 ### Request
 
-**Endpoint** : **`URL`** /api/course-search/filter/scholarship/:scholarship_id
+**Endpoint** : **`URL`** /api/course-search/scholarship/:id
 
 * **`:scholarship_id`** is the scholarship’s identity to retrieve.
 * The headers must be properly [set](#/Info-setting-headers).
@@ -127,3 +127,13 @@ layout: nil
 
 </table>
 
+**If errors**, returns : 
+
+```Status: 400```
+
+```{
+  "message": "Not Found",
+  "error": {
+    "status": 404
+  }
+}```
