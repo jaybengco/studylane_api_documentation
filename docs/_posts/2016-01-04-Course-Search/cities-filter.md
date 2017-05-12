@@ -15,8 +15,9 @@ layout: nil
 **Request Body**: 
 
 ```{
-  scholarshipId: "29", 
-  countryId: "Adelaide"
+  "scholarshipId": "54",
+  "countryId": 1,
+  "stateId": 2
 }```
 
 <table>
@@ -28,13 +29,19 @@ layout: nil
 	</tr>
 	<tr>
 		<td class="table-fieldname"> scholarshipId </td>
-    <td class="table-required"> yes </td>
+    <td class="table-required"> No </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description">  </td>
 	</tr>  
 	<tr>
 		<td class="table-fieldname"> countryId </td>
-    <td class="table-required"> yes </td>
+    <td class="table-required"> No </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description">  </td>
+	</tr>    
+	<tr>
+		<td class="table-fieldname"> stateId </td>
+    <td class="table-required"> No </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description">  </td>
 	</tr>    
@@ -48,17 +55,7 @@ layout: nil
 ```{
   "success": true,
   "status": "success",
-  "message": "[MESSAGE]",
-  "actor": "[endpoint]",
-  "hostname": "[hostname]",
-  "reference_data": "[array]"
-}```
-
-### Example
-```{
-  "success": true,
-  "status": "success",
-  "actor": "[endpoint]",
+  "actor": "/api/course-search/filter/cities",
   "hostname": "[hostname]",
   "reference_data": [
     {
@@ -70,6 +67,30 @@ layout: nil
   ]
 }```
 
-**If fails**, returns : 
 
-```Status: (status > 304 )```
+
+<table>
+
+	<tr>
+		<th class="table-fieldname"> Fieldname </th>
+		<th class="table-data-type"> Data type </th>
+		<th class="table-description"> Description </th>
+	</tr>
+	<tr>
+		<td class="table-fieldname"> id </td>
+		<td class="table-data-type"> Integer </td>
+		<td class="table-description"> City ID </td>
+	</tr>  
+	<tr>
+		<td class="table-fieldname"> name </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> City Name </td>
+	</tr>  
+	<tr>
+		<td class="table-fieldname"> stateId </td>
+		<td class="table-data-type"> Integer </td>
+		<td class="table-description">State Id</td>
+	</tr>
+
+</table>
+
