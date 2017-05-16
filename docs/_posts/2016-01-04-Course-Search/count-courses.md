@@ -5,6 +5,7 @@ title: 'Course Count'
 type : 'POST'
 layout: nil
 ---
+### **Description** : Count courses based on filters and keywords.
 
 ### Request
 
@@ -12,18 +13,18 @@ layout: nil
 
 * The headers must be properly [set](#/Info-setting-headers).
 
-
 **Request Body**: 
 
 ```{
-  "q" : "Engineer | Business",
-  "awardId" : 6,
-  "institutionId" : 84,
-  "cityId" : 62,
-  "countryId" : 1, 
-  "stateId" : 8, 
-  "costId" : 2, 
-  "durationId" : 2
+  "keywords": "Engineering | Arch",
+  "level_of_study": "",
+  "country_id": "Australia",
+  "state_id": "",
+  "city_id": "",
+  "institution_id": "pid-mi-au-9607",
+  "duration_id": 0,
+  "cost_id": 0,
+  "scholarship_id": 0
 }```
 
 
@@ -35,44 +36,53 @@ layout: nil
 		<th class="table-description"> Description </th>
 	</tr>
 	<tr>
-		<td class="table-fieldname"> q </td>
+		<td class="table-fieldname"> keywords </td>
         <td class="table-required"> Optional </td>
 		<td class="table-data-type"> String </td>
-		<td class="table-description">  The keyword that will be used to search courses </td>
-        NOTE : you can use a pipe "|" for multiple keyword search, ex "Engineer | Business"
+		<td class="table-description">  
+            The keyword that will be used to search courses 
+            <br /><br />  
+            <strong>NOTE :</strong> you can use a pipe "|" for multiple keyword search, ex "Engineer | Business" 
+        </td>
 	</tr> 
     <tr>
-		<td class="table-fieldname"> awardId </td>
+		<td class="table-fieldname"> level_of_study </td>
+        <td class="table-required"> Optional </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> Course Study Level </td>
+	</tr> 
+    <tr>
+		<td class="table-fieldname"> institution_id </td>
+        <td class="table-required"> Optional </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> </td>
+	</tr> 
+    <tr>
+		<td class="table-fieldname"> country_id </td>
+        <td class="table-required"> Optional </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> </td>
+	</tr>     
+    <tr>
+		<td class="table-fieldname"> city_id </td>
+        <td class="table-required"> Optional </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> </td>
+	</tr> 
+    <tr>
+		<td class="table-fieldname"> state_id </td>
+        <td class="table-required"> Optional </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description">  </td>
+	</tr> 
+    <tr>
+		<td class="table-fieldname"> scholarship_id </td>
         <td class="table-required"> Optional </td>
 		<td class="table-data-type"> Integer </td>
-		<td class="table-description"> Program ID </td>
-	</tr> 
+		<td class="table-description"> </td>
+	</tr>     
     <tr>
-		<td class="table-fieldname"> institutionId </td>
-        <td class="table-required"> Optional </td>
-		<td class="table-data-type"> Integer </td>
-		<td class="table-description"> Instituition ID</td>
-	</tr> 
-    <tr>
-		<td class="table-fieldname"> cityId </td>
-        <td class="table-required"> Optional </td>
-		<td class="table-data-type"> Integer </td>
-		<td class="table-description"> City ID</td>
-	</tr> 
-    <tr>
-		<td class="table-fieldname"> countryId </td>
-        <td class="table-required"> Optional </td>
-		<td class="table-data-type"> Integer </td>
-		<td class="table-description"> County ID</td>
-	</tr> 
-    <tr>
-		<td class="table-fieldname"> stateId </td>
-        <td class="table-required"> Optinal </td>
-		<td class="table-data-type"> Integer </td>
-		<td class="table-description"> State ID</td>
-	</tr> 
-    <tr>
-		<td class="table-fieldname"> costId </td>
+		<td class="table-fieldname"> cost_id </td>
         <td class="table-required"> Optional </td>
 		<td class="table-data-type"> Integer </td>
 		<td class="table-description">  
@@ -92,9 +102,9 @@ layout: nil
 </td>
 	</tr> 
     <tr>
-		<td class="table-fieldname"> durationId </td>
+		<td class="table-fieldname"> duration_id </td>
         <td class="table-required"> Optional </td>
-		<td class="table-data-type"> Ineger </td>
+		<td class="table-data-type"> Integer </td>
 		<td class="table-description"> 
         <ul>
             <li>1 : below 1 year</li>
@@ -111,9 +121,9 @@ layout: nil
 
 
 ```{
+  "success": true,
   "status": "success",
-  "message": "course count",
-  "actor": "/api/courseCount",
-  "host": "d34d7b363944",
-  "reference_data":  19
+  "actor": "/api/couse-search/count/course",
+  "hostname": "Pelican-3.local",
+  "reference_data": 59
 }```

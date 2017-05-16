@@ -5,6 +5,7 @@ title: 'Get'
 type : 'GET'
 layout: nil
 ---
+### **Description** : api description
 
 ### Request
 

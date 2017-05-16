@@ -5,7 +5,7 @@ title: 'Get with authentication'
 type : 'GET'
 layout: nil
 ---
-
+### **Description** : api description
 
 ### Request
 
