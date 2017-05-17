@@ -66,30 +66,21 @@ x-project-id: PROJECT_ID```
 ```Status: 200```
 
 ```{
-      "id": 8,
-      "name": "Australian Capital Territory",
-      "abbreviation": "ACT"
+  "success": true,
+  "status": "success",
+  "actor": "/api/course-search/filter/states",
+  "hostname": "Pelican-3.local",
+  "reference_data": [
+    {
+      "state_id": "Australian Capital Territory",
+      "state_name": "Australian Capital Territory"
     },
     {
-      "id": 5,
-      "name": "New South Wales",
-      "abbreviation": "NSW"
-    },
-    {
-      "id": 2,
-      "name": "Northern Territory",
-      "abbreviation": "NT"
-    },
-    {
-      "id": 4,
-      "name": "Queensland",
-      "abbreviation": "QLD"
-    },
-    {
-      "id": 3,
-      "name": "South Australia",
-      "abbreviation": "SA"
-    }```
+      "state_id": "New South Wales",
+      "state_name": "New South Wales"
+    }
+  ]
+}```
 
 
 <table>

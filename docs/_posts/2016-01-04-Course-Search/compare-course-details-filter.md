@@ -1,7 +1,7 @@
 ---
 category: Course Search
 endpoint: '/api/course-search/get-compared-courses-details'
-title: 'Compare Course Details'
+title: 'Compare Courses Details'
 type : 'POST'
 layout: nil
 ---
@@ -14,12 +14,12 @@ layout: nil
 
 ```[
   {
-    "course_id": 1,
-    "campus_id": 2
+    "course_id": "cid-mm-01-93333",
+    "campus_id": 13883
   },
   {
-    "course_id": 2,
-    "campus_id": 2
+    "course_id": "cid-mi-133645",
+    "campus_id": 61
   }
 ]```
 
@@ -51,54 +51,60 @@ layout: nil
 ```Status: 200```
 
 
-```[
-  {
-    "course_id": "123",
-    "campus_id": "125",
-    "course_name": "Bachelor of Engineering (Honours) and Diploma of Professional Practice (Co-Op Engineering)",
-    "course_cricos_code": "083587C",
-    "course_duration": "4.5",
-    "course_duration_unit": "year",
-    "course_level_of_study": "Bachelor Degree",
-    "course_fee_total": 84480,
-    "course_fee_currency": "AUD",
-    "course_description": "Lorem ipsum blah.",
-    "institution_id": "abc-123",
-    "institution_trading_name": "Central Queensland University",
-    "institution_logo_url": "https://d2hpwmayxrmlo8.cloudfront.net/institutions/logo/sl_1440395973938_fd32e_CQU_-_Sydney_Campus_logo.png",
-    "website_url": "www.cqu.edu.au",
-    "campus_cricos_code": "00219C",
-    "campus_name": "Central Queensland University, Gladstone",
-    "campus_preview_image_url": "https://d2hpwmayxrmlo8.cloudfront.net/campus/per-city/gladstone.png",
-    "campus_state": "Queensland",
-    "campus_city": "Gladstone",
-    "campus_country": "Australia",
-    "campus_street": "Derby Street"
-  },
-  {
-    "course_id": "111",
-    "campus_id": "12225",
-    "course_name": "Bachelor of Engineering (Honours) and Diploma of Professional Practice (Co-Op Engineering)",
-    "course_cricos_code": "083587C",
-    "course_duration": "4.5",
-    "course_duration_unit": "year",
-    "course_level_of_study": "Bachelor Degree",
-    "course_fee_total": 84480,
-    "course_fee_currency": "AUD",
-    "course_description": "Lorem ipsum blah.",
-    "institution_id": "abc-123",
-    "institution_trading_name": "Central Queensland University",
-    "institution_logo_url": "https://d2hpwmayxrmlo8.cloudfront.net/institutions/logo/sl_1440395973938_fd32e_CQU_-_Sydney_Campus_logo.png",
-    "website_url": "www.cqu.edu.au",
-    "campus_cricos_code": "00219C",
-    "campus_name": "Central Queensland University, Gladstone",
-    "campus_preview_image_url": "https://d2hpwmayxrmlo8.cloudfront.net/campus/per-city/gladstone.png",
-    "campus_state": "Queensland",
-    "campus_city": "Gladstone",
-    "campus_country": "Australia",
-    "campus_street": "Derby Street"
-  }
-]```
+```{
+  "success": true,
+  "status": "success",
+  "actor": "/api/course-search/get-compared-courses-details",
+  "hostname": "Pelican-3.local",
+  "reference_data": [
+    {
+      "course_id": "cid-mm-01-93333",
+      "campus_id": "13883",
+      "course_name": "Doctor of Communication (by Research)",
+      "course_cricos_code": "072059G",
+      "course_duration": 3,
+      "course_duration_unit": "year",
+      "course_level_of_study": "Ph.D.",
+      "course_fee_total": 86400,
+      "course_fee_currency": "AUD",
+      "course_description": "CSU's Doctor of Communication is a research degree providing the opportunity for advanced critical reflection on professional practice in the disciplines of Journalism, Public Relations and Organisational Communication, Advertising, Cultural Performance and other closely related fields.",
+      "institution_id": "pid-mi-au-9607",
+      "institution_trading_name": "Charles Sturt University",
+      "website_url": "http://www.csu.edu.au/",
+      "campus_cricos_code": "00005F",
+      "campus_name": "Port Macquarie",
+      "campus_state": "New South Wales",
+      "campus_city": "Port Macquarie",
+      "campus_country": "Australia",
+      "campus_street": "7 Major Innes Road",
+      "institution_logo_url": "https://d2hpwmayxrmlo8.cloudfront.net/webservice-manager/course-search/banners/default/qcaps-default-01.png",
+      "campus_preview_image_url": "https://d2hpwmayxrmlo8.cloudfront.net/webservice-manager/course-search/logos/default/qcaps-default-01.png"
+    },
+    {
+      "course_id": "cid-mi-133645",
+      "campus_id": "61",
+      "course_name": "Bachelor of Design in Architecture and Bachelor of Laws",
+      "course_cricos_code": "075305G",
+      "course_duration": 5,
+      "course_duration_unit": "year",
+      "course_level_of_study": "Dual Degree",
+      "course_fee_total": 200000,
+      "course_fee_currency": "AUD",
+      "course_description": "This five-year program prepares students for careers in both architecture and law. It will be ideal if your interests and aspirations span these two respected fields. It works by spreading out the first year of the Sydney LLB over three years of the Design in Architecture program. Students enrol in the Faculty of Architecture, Design and planning for the first three years and then transfer to the Law School to finish the last two years of their studies. On completion of the program you will be uniquely positioned to elect whether you want to enter legal or architectural practice or pursue the broadening nexus between these fields. To become a registered architect you would need to complete a further two years of study in the Master of Architecture. Please note that places in this course are limited and subject to strict enrolment quotas.",
+      "institution_id": "pid-mi-au-9792",
+      "institution_trading_name": "The University of Sydney",
+      "website_url": "http://sydney.edu.au/",
+      "campus_cricos_code": "00026A",
+      "campus_name": "Camperdown/Darlington",
+      "campus_state": "New South Wales",
+      "campus_city": "Camperdown",
+      "campus_country": "Australia",
+      "campus_street": "Physics Road",
+      "institution_logo_url": "https://d2hpwmayxrmlo8.cloudfront.net/webservice-manager/course-search/banners/default/qcaps-default-01.png",
+      "campus_preview_image_url": "https://d2hpwmayxrmlo8.cloudfront.net/webservice-manager/course-search/logos/default/qcaps-default-01.png"
+    }
+  ]
+}```
 
 
   <table>
