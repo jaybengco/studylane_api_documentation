@@ -62,20 +62,20 @@ layout: nil
 ```Status: 200```
 
 ```{
-  "id": 50,
-  "trading_name": "AAPoly"
-},
-{
-  "id": 90,
-  "trading_name": "AAPoly  AMI Education"
-},
-{
-  "id": 114,
-  "trading_name": "Ability English"
-},
-{
-  "id": 49,
-  "trading_name": "Academies Australasia Institute"
+  "success": true,
+  "status": "success",
+  "actor": "/api/course-search/filter/institutions",
+  "hostname": "Pelican-3.local",
+  "reference_data": [
+    {
+      "id": "pid-mi-au-9607",
+      "trading_name": "Charles Sturt University"
+    },
+    {
+      "id": "pid-mi-au-9792",
+      "trading_name": "The University of Sydney"
+    }
+  ]
 }```
 
 
