@@ -5,6 +5,7 @@ title: 'States Filter'
 type : 'POST'
 layout: nil
 ---
+### **Description** : List available states used on course search filter. Has optional paramater used to filter states based on scholarship, country and/or city.
 
 ### Request
 

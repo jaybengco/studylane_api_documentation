@@ -5,6 +5,7 @@ title: 'Countries Filter'
 type : 'POST'
 layout: nil
 ---
+### **Description** : List available countries used on course search filter. Has optional paramater used to filter countries based on scholarship.
 
 ### Request
 

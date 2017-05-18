@@ -5,6 +5,7 @@ title: 'Compare Course Details'
 type : 'POST'
 layout: nil
 ---
+### **Description** : Get compared courses details.
 
 ### Request
 

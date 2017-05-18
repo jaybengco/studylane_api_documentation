@@ -5,6 +5,7 @@ title: 'Institutions Filter'
 type : 'POST'
 layout: nil
 ---
+### **Description** : List available instutions used on course search filter. Has optional paramaters used to filter instutitons based on scholarship, country, state and/or city.
 
 ### Request
 
