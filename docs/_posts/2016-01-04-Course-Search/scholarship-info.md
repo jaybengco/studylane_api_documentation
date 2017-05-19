@@ -5,6 +5,7 @@ title: 'Scholarship Info'
 type : 'POST'
 layout: nil
 ---
+### **Description** : Get scholarship information based on scholarship Id.
 
 ### Request
 

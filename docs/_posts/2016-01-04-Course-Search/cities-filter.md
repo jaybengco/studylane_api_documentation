@@ -63,14 +63,88 @@ layout: nil
   "success": true,
   "status": "success",
   "actor": "/api/course-search/filter/cities",
-  "hostname": "[hostname]",
+  "hostname": "Pelican-3.local",
   "reference_data": [
+    {
+      "city_id": "Albury",
+      "city_name": "Albury",
+      "state_name": "New South Wales"
+    },
+    {
+      "city_id": "Barton",
+      "city_name": "Barton",
+      "state_name": "Australian Capital Territory"
+    },
+    {
+      "city_id": "Bathurst",
+      "city_name": "Bathurst",
+      "state_name": "New South Wales"
+    },
+    {
+      "city_id": "Camden",
+      "city_name": "Camden",
+      "state_name": "New South Wales"
+    },
     {
       "city_id": "Camperdown",
       "city_name": "Camperdown",
       "state_name": "New South Wales"
     },
-    ...
+    {
+      "city_id": "Dubbo",
+      "city_name": "Dubbo",
+      "state_name": "New South Wales"
+    },
+    {
+      "city_id": "Goulburn",
+      "city_name": "Goulburn",
+      "state_name": "New South Wales"
+    },
+    {
+      "city_id": "Lidcombe",
+      "city_name": "Lidcombe",
+      "state_name": "New South Wales"
+    },
+    {
+      "city_id": "Manly",
+      "city_name": "Manly",
+      "state_name": "New South Wales"
+    },
+    {
+      "city_id": "Newtown",
+      "city_name": "Newtown",
+      "state_name": "New South Wales"
+    },
+    {
+      "city_id": "North Wagga",
+      "city_name": "North Wagga",
+      "state_name": "New South Wales"
+    },
+    {
+      "city_id": "Orange",
+      "city_name": "Orange",
+      "state_name": "New South Wales"
+    },
+    {
+      "city_id": "Port Macquarie",
+      "city_name": "Port Macquarie",
+      "state_name": "New South Wales"
+    },
+    {
+      "city_id": "Rozelle",
+      "city_name": "Rozelle",
+      "state_name": "New South Wales"
+    },
+    {
+      "city_id": "Surry Hills",
+      "city_name": "Surry Hills",
+      "state_name": "New South Wales"
+    },
+    {
+      "city_id": "Sydney",
+      "city_name": "Sydney",
+      "state_name": "New South Wales"
+    }
   ]
 }```
 
