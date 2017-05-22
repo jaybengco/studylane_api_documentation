@@ -1,5 +1,5 @@
 ---
-category: Course Search
+category: Course Application
 endpoint: '/api/course-application/student/:id'
 title: 'Course Applied Details'
 type : 'POST'
