@@ -14,7 +14,7 @@ layout: nil
 **Request Body**: 
 ```{
 	"student_id" : 20208, 
-	"country_id" : "Australia"
+	"country_id" : 1
 }```
 
 
@@ -34,8 +34,8 @@ layout: nil
 	<tr>
 		<td class="table-fieldname"> country_id </td>
     <td class="table-required">  </td>
-		<td class="table-data-type"> String </td>
-		<td class="table-description"> Country Name</td>
+		<td class="table-data-type"> Integer </td>
+		<td class="table-description"> Country Id</td>
 	</tr>   
 </table>
 
@@ -178,7 +178,7 @@ layout: nil
     },
     {
       "fieldname": "country_id",
-      "datatype": "String",
+      "datatype": "Integer",
       "message": "is required"
     }
   ]
@@ -195,7 +195,7 @@ layout: nil
   "reference_data": [
     {
       "fieldname": "country_id",
-      "datatype": "String",
+      "datatype": "Integer",
       "message": "is required"
     }
   ]

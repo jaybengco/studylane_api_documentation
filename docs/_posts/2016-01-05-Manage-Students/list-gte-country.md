@@ -42,11 +42,14 @@ layout: nil
   "success": true,
   "status": "success",
   "actor": "/api/student/gte/country/list",
-  "hostname": "cfe2b883f211",
-  "reference_data": [{
-    "country_id": 1,
-    "country_name": "Australia",
-  }]
+  "hostname": "Auklet.local",
+  "reference_data": [
+    {
+      "id": 1,
+      "name": "Australia",
+      "abbreviation": "AU"
+    }
+  ]
 }```
 
 
@@ -66,11 +69,11 @@ layout: nil
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> Country Name</td>
 	</tr>  
-	<!--<tr>
+	<tr>
 		<td class="table-fieldname"> abbreviation </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> Country abbreviation</td>
-	</tr>  -->
+	</tr>  
 </table>
 
 **If with error**, returns : 
