@@ -54,81 +54,68 @@ layout: nil
 		<th class="table-fieldname"> Fieldname </th>
  		<th class="table-data-type"> Data type </th>
 		<th class="table-description"> Description </th>
-	</tr>
 	</tr> 
 		<tr>
 		<td class="table-fieldname"> video_interview_file_id </td>
 		<td class="table-data-type"> Integer </td>
 		<td class="table-description"> Video interview file ID </td>
 	</tr> 
-	</tr> 
 		<tr>
 		<td class="table-fieldname"> video_interview_status </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> Video interview status </td>
 	</tr>
-	</tr> 
 		<tr>
 		<td class="table-fieldname"> video_file_name </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> Video file name </td>
 	</tr>
-	</tr> 
 		<tr>
 		<td class="table-fieldname"> video_file_thumbnail_name </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> Video file thumbnail name </td>
-	</tr>
 	</tr> 
 		<tr>
 		<td class="table-fieldname"> video_file_duration </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> Video file duration </td>
 	</tr>
-	</tr> 
 		<tr>
 		<td class="table-fieldname"> video_interview_id </td>
 		<td class="table-data-type"> Integer </td>
 		<td class="table-description"> Video interview ID </td>
-	</tr>
 	</tr> 
 		<tr>
 		<td class="table-fieldname"> video_interview_created </td>
 		<td class="table-data-type"> Date </td>
 		<td class="table-description"> Video interview when created </td>
 	</tr>
-	</tr> 
 		<tr>
 		<td class="table-fieldname"> course_application_id </td>
 		<td class="table-data-type"> Integer </td>
 		<td class="table-description"> Course application ID </td>
 	</tr>
-	</tr> 
 		<tr>
 		<td class="table-fieldname"> course_name </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> Course name </td>
 	</tr>
-	</tr> 
 		<tr>
 		<td class="table-fieldname"> campus_name </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> Campus name </td>
 	</tr>
-	
-	</tr> 
+
 		<tr>
 		<td class="table-fieldname"> campus_city </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> Campus city </td>
 	</tr>
-	</tr> 
 		<tr>
 		<td class="table-fieldname"> institution_trading_name </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> Institution trading name </td>
 	</tr>
-	</tr> 
 		<tr>
 		<td class="table-fieldname"> record_from </td>
 		<td class="table-data-type"> String </td>
