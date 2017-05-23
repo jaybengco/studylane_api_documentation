@@ -5,7 +5,7 @@ title: 'Update Status'
 type : 'POST'
 layout: nil
 ---
-
+### Description : Update course application status.
 ### Request
 
 **Endpoint** : **`URL`** /api/course-application/status/update

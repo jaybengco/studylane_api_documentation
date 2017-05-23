@@ -123,3 +123,20 @@ layout: nil
 		<td class="table-description"> Applied courses count </td>
 	</tr>	
 </table>
+
+
+**If with error**, returns : 
+
+```Status: 500```
+
+**Request Body**: 
+```with Request Param but with no x-access-token in headers```
+
+```{
+  "success": false,
+  "status": "failure",
+  "message": "Access Denied",
+  "actor": "/api/student/course-application/notes/20208",
+  "hostname": "Auklet.local",
+  "reference_data": "Invalid! please login"
+}```
