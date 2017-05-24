@@ -1,11 +1,11 @@
 ---
-category: Signup
+category: Sign Up
 endpoint: '/api/signup/instution/list'
 title: 'Institution List'
 type : 'POST'
 layout: nil
 ---
-### **Description** : Count institutions based on filters and keywords.
+### **Description** : List available institutions
 
 ### Request
 
@@ -15,8 +15,8 @@ layout: nil
 
 **Request Body**: 
 ```n/a```
-**Response Body**: 
 
+**Response Body**: 
 
 ```RESPONSE : 
 {
