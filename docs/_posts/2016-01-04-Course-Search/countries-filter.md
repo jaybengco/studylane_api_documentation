@@ -17,7 +17,7 @@ layout: nil
 **Request Body**: 
 
 ```{
-  "scholarshipId": 29
+  "scholarship_id": 29
 }```
 
 
@@ -29,7 +29,7 @@ layout: nil
 		<th class="table-description"> Description </th>
 	</tr>
 	<tr>
-		<td class="table-fieldname"> scholarshipId </td>
+		<td class="table-fieldname"> scholarship_id </td>
         <td class="table-required"> No </td>
 		<td class="table-data-type"> Integer </td>
 		<td class="table-description"> Scholarship ID</td>

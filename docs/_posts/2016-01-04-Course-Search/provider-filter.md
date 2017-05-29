@@ -15,10 +15,10 @@ layout: nil
 **Request Body**: 
 
 ```{
-  "scholarshipId": 29,
-  "countryId": "Australia",
-  "cityId": "",
-  "stateId": ""
+  "scholarship_id": 29,
+  "country_id": "Australia",
+  "city_id": "",
+  "state_id": ""
 }```
 
 
@@ -30,25 +30,25 @@ layout: nil
 		<th class="table-description"> Description </th>
 	</tr>
 	<tr>
-		<td class="table-fieldname"> scholarshipId </td>
+		<td class="table-fieldname"> scholarship_id </td>
         <td class="table-required"> No </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> Scholarship ID</td>
 	</tr>
 	<tr>
-		<td class="table-fieldname"> countryId </td>
+		<td class="table-fieldname"> country_id </td>
         <td class="table-required"> No </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> Country name</td>
 	</tr>
 	<tr>
-		<td class="table-fieldname"> cityId </td>
+		<td class="table-fieldname"> city_id </td>
         <td class="table-required"> No </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> City</td>
 	</tr> 
 	<tr>
-		<td class="table-fieldname"> stateId </td>
+		<td class="table-fieldname"> state_id </td>
         <td class="table-required"> No </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> State</td>
