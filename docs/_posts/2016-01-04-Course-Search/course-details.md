@@ -77,9 +77,10 @@ layout: nil
     "campus_country": "Australia",
     "institution_id": "pid-mi-au-9792",
     "institution_trading_name": "The University of Sydney",
+    "institution_type": "University",
     "website_url": "http://sydney.edu.au/",
-    "campus_preview_image_url": "https://d2hpwmayxrmlo8.cloudfront.net/webservice-manager/course-search/logos/default/qcaps-default-01.png",
-    "institution_logo_url": "https://d2hpwmayxrmlo8.cloudfront.net/webservice-manager/course-search/banners/default/qcaps-default-01.png",
+    "campus_preview_image_url": "https://d2hpwmayxrmlo8.cloudfront.net/webservice-manager/course-search/banners/default/qcaps-default-01.png",
+    "institution_logo_url": "https://d2hpwmayxrmlo8.cloudfront.net/webservice-manager/course-search/logos/default/qcaps-default-01.png",
     "additional_details": {
       "related_courses": [],
       "majors": [
