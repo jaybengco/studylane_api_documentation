@@ -15,7 +15,7 @@ layout: nil
 **Request Body**: 
 
 ```{
-  "country_id": "Australia",
+  "country_id": 1,
   "firstname": "John",
   "lastname": "doe",
   "email": "johndoe123@yopmail.com",
@@ -43,7 +43,7 @@ layout: nil
 	<tr>
 		<td class="table-fieldname"> country_id </td>
 		<td class="table-required"> No </td>
-		<td class="table-data-type"> String </td>
+		<td class="table-data-type"> Integer </td>
 		<td class="table-description"> Country ID</td>
 	</tr> 
 	<tr>
