@@ -92,13 +92,13 @@ layout: nil
 		<td class="table-description"> Country ID</td>
 	</tr> -->
 	<tr>
-		<td class="table-fieldname"> name </td>
+		<td class="table-fieldname"> country_id </td>
 		<td class="table-data-type"> String </td>
-		<td class="table-description"> Country name </td>
+		<td class="table-description"> Country Id </td>
 	</tr>  
 	<tr>
-		<td class="table-fieldname"> abbreviation </td>
+		<td class="table-fieldname"> country_name </td>
 		<td class="table-data-type"> String </td>
-		<td class="table-description">Country abbreviation</td>
+		<td class="table-description">Country Name</td>
 	</tr>    
 </table>
