@@ -17,7 +17,7 @@ layout: nil
 **Request Body**: 
 
 ```{
-  "scholarship_id": 29
+  "scholarship_id": 12
 }```
 
 
@@ -43,19 +43,40 @@ layout: nil
 ```Status: 200```
 
 ```{
-  "id": 1,
-  "name": "Australia",
-  "abbreviation": "AU"
-},
-{
-  "id": 174,
-  "name": "Philippines",
-  "abbreviation": "PH"
-},
-{
-  "id": 2,
-  "name": "United States of America (USA)",
-  "abbreviation": "US"
+    "success": true,
+    "status": "success",
+    "actor": "/api/course-search/filter/countries",
+    "hostname": "Auklet.local",
+    "reference_data": [
+        {
+            "country_id": "Australia",
+            "country_name": "Australia"
+        },
+        {
+            "country_id": "Canada",
+            "country_name": "Canada"
+        },
+        {
+            "country_id": "CURACAO",
+            "country_name": "CURACAO"
+        },
+        {
+            "country_id": "New Zealand",
+            "country_name": "New Zealand"
+        },
+        {
+            "country_id": "Singapore",
+            "country_name": "Singapore"
+        },
+        {
+            "country_id": "United Kingdom",
+            "country_name": "United Kingdom"
+        },
+        {
+            "country_id": "United States",
+            "country_name": "United States"
+        }
+    ]
 }```
 
 
@@ -65,11 +86,11 @@ layout: nil
 		<th class="table-data-type"> Data type </th>
 		<th class="table-description"> Description </th>
 	</tr>
-	<tr>
+	<!--<tr>
 		<td class="table-fieldname"> id </td>
 		<td class="table-data-type"> Integer </td>
 		<td class="table-description"> Country ID</td>
-	</tr>  
+	</tr> -->
 	<tr>
 		<td class="table-fieldname"> name </td>
 		<td class="table-data-type"> String </td>

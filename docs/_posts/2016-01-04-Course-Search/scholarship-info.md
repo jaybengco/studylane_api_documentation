@@ -14,6 +14,9 @@ layout: nil
 * **`:id`** is the scholarship’s identity to retrieve.
 * The headers must be properly [set](#/Info-setting-headers).
 
+### Example Request Url: 
+ **`URL`** /api/course-search/scholarship/12
+
 ### Response
 
 **If succeeds**, returns : 
@@ -21,21 +24,26 @@ layout: nil
 ```Status: 200```
 
 ```{
-  "scholarship_id": 29,
-  "scholarship_id_for_view": null,
-  "scholarship_name": "ABC Scholarship Program",
-  "sponsor_name": "Villar Academy",
-  "sponsor_id": 1032,
-  "max_grant": 5,
-  "used_grant": 2,
-  "amount": "100,000.00",
-  "country_id": 1,
-  "sponsor_user_id": 20109,
-  "date_created": "07/26/2016 - 06:03 AM",
-  "sponsor_firstname": "Mapua",
-  "sponsor_lastname": "Delarosa",
-  "currency": "AU$"
- }```
+    "success": true,
+    "status": "success",
+    "actor": "/api/course-search/scholarship/12",
+    "hostname": "Auklet.local",
+    "reference_data": {
+        "scholarship_id": 12,
+        "scholarship_id_for_view": "MoohLhagScholarship",
+        "scholarship_name": "The Mooh Lhag Scholarship",
+        "sponsor_name": "The Mooh Lhag",
+        "sponsor_id": 1005,
+        "max_grant": 50,
+        "used_grant": 5,
+        "amount": "1,000.00",
+        "country_id": 2,
+        "sponsor_user_id": 20204,
+        "date_created": "05/08/2017 - 08:34 AM",
+        "sponsor_firstname": "Mooh",
+        "sponsor_lastname": "Lhag"
+    }
+}```
 
 
 <table>
@@ -50,7 +58,7 @@ layout: nil
 		<td class="table-description"> Scholarship ID </td>
 	</tr>  
 	<tr>
-		<td class="table-fieldname"> nascholarship_id_for_viewme </td>
+		<td class="table-fieldname"> scholarship_id_for_view </td>
 		<td class="table-data-type"> Integer </td>
 		<td class="table-description"> Scholarship ID </td>
 	</tr>  
@@ -86,15 +94,15 @@ layout: nil
 
 	<tr>
 		<td class="table-fieldname"> amount </td>
-		<td class="table-data-type"> Integer </td>
-		<td class="table-description">Amount</td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description">Scholarship grant amount</td>
 	</tr>    
 
 	<tr>
 		<td class="table-fieldname"> country_id </td>
 		<td class="table-data-type"> Integer </td>
-		<td class="table-description">Country ID</td>
-	</tr>    
+		<td class="table-description"> Country Id </td>
+	</tr>
 
 	<tr>
 		<td class="table-fieldname"> sponsor_user_id </td>
@@ -120,11 +128,11 @@ layout: nil
 		<td class="table-description"> Sponsor lastname </td>
 	</tr> 
 
-	<tr>
+	<!-- <tr>
 		<td class="table-fieldname"> currency </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> Currency </td>
-	</tr>     
+	</tr>     -->
 
 </table>
 
@@ -133,8 +141,9 @@ layout: nil
 ```Status: 400```
 
 ```{
-  "message": "Not Found",
-  "error": {
-    "status": 404
-  }
+    "success": false,
+    "status": "failure",
+    "actor": "/api/course-search/scholarship/123333",
+    "hostname": "Auklet.local",
+    "reference_data": "scholarship not found"
 }```
