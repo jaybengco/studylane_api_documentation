@@ -15,29 +15,28 @@ layout: nil
 
 **Request Body**: 
 ```{
-  "application_type": "institution",
-  "country_id": "174",
-  "institution_id": "50",
-  "firstname": "red",
-  "lastname": "dead",
-  "telephone": "+213312",
-  "email": "reddead@yopmail.com",
-  "reenteremail": "reddead@yopmail.com",
-  "street1": "asdfds",
-  "city": "asdfdsf",
-  "state": "sadfdasf",
-  "postcode": "dsfas"
+  "country_id": 1,
+  "institution_id": "pid-mi-au-10149",
+  "firstname": "Trentay",
+  "lastname": "Nwebe",
+  "telephone": "+9821234",
+  "email": "trentaynwebe@yopmail.com",
+  "reenteremail": "trentaynwebe@yopmail.com",
+  "street1": "street_1",
+  "street2": "street_2",
+  "city": "Albany",
+  "state": "Western Australia",
+  "postcode": "2300"
 }```
 
 **Response Body**: 
-```{  
-   "success":true,
-   "status":"success",
-   "message":"Successfully signed up institution manager",
-   "actor":"/api/signup/institution-manager",
-   "hostname":"cfe2b883f211",
-   "reference_data":{  
-      "user_id":20364,
-      "institution_manager_id":72
-   }
+```{
+    "success": true,
+    "status": "success",
+    "actor": "/api/signup/institution-manager",
+    "hostname": "auklet.local",
+    "reference_data": {
+        "user_id": 11092,
+        "institution_manager_id": 57
+    }
 }```
