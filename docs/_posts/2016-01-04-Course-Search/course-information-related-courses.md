@@ -9,7 +9,14 @@ layout: nil
 
 ### Request
 
-**Endpoint** : **`URL`** /api/course-search/get-course-details/related-courses/:course_id/:course_name
+**Endpoint** : **`URL`** /api/course-search/get-course-details/related-courses/:course_id/:course_name/:limit
+
+* The headers must be properly [set](#/Info-setting-headers).
+
+**Request Headers** :
+
+```Content-Type: application/json
+x-project-id: PROJECT_ID```
 
 ### Response
 
@@ -20,7 +27,7 @@ layout: nil
 ```{
     "success": true,
     "status": "success",
-    "actor": "/api/course-search/get-course-details/related-courses/cid-mi-16461/Doctor%20of%20Dental%20Medicine",
+    "actor": "/api/course-search/get-course-details/related-courses/cid-mi-16461/Doctor%20of%20Dental%20Medicine"/3,
     "hostname": "partridge.local",
     "reference_data": [
         {
