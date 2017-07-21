@@ -18,12 +18,14 @@ layout: nil
   {
     "application_id": 67,
     "status_id": 11,
-    "is_packaged": false
+    "is_packaged": false,
+    "comments": "Test comments"
   },
   {
     "application_id": 109,
     "status_id": 1,
-    "is_packaged": false
+    "is_packaged": false,
+    "comments": "Test comments"
   }
 ]```
 
@@ -51,6 +53,12 @@ layout: nil
       <td class="table-required"> No </td>
 		<td class="table-data-type"> boolean </td>
 		<td class="table-description">   </td>
+	</tr> 
+  <tr>
+		<td class="table-fieldname"> comments </td>
+      <td class="table-required"> Yes </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> Comments </td>
 	</tr> 
 
 </table>
