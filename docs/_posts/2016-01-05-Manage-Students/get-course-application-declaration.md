@@ -62,7 +62,7 @@ layout: nil
     "role_name" : "STUDENT",
     "firstname" : "Gia Gold",
     "lastname" : "Bustamante",
-    "date_declared" : "2017-07-05 00:00:00"
+    "date_declared" : "2017-07-05"
   }
 }```
 
