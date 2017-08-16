@@ -24,7 +24,9 @@ type : 'POST'
   "institution_id": "pid-mi-au-9607",
   "duration_id": 0,
   "cost_id": 0,
-  "scholarship_id": 0
+  "scholarship_id": 0,
+  "english_language_score_type":"IELTS",
+  "english_language_score": 6.0
 }```
 
 
@@ -115,6 +117,34 @@ type : 'POST'
         </ul>
         </td>
 	</tr> 
+    <tr>
+		<td class="table-fieldname"> english_language_score_type </td>
+        <td class="table-required"> Optional </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> 
+            <ul>
+                <li>IELTS</li>
+                <li>TOEFL iBT</li>
+                <li>TOEFL pBT</li>
+                <li>PTE</li>
+                <li>Cambridge</li>
+            </ul>
+        </td>
+	</tr>       
+    <tr>
+		<td class="table-fieldname"> english_language_score </td>
+        <td class="table-required"> Optional </td>
+		<td class="table-data-type"> String | Integer </td>
+		<td class="table-description"> 
+            <ul>
+                <li>IELTS : 1 ~ 9</li>
+                <li>TOEFL iBT : 0 ~ 120</li>
+                <li>TOEFL pBT : 310 ~ 677</li>
+                <li>PTE : 10 ~ 90</li>
+                <li>Cambridge : A1 ~ C2</li>
+            </ul>
+        </td>
+	</tr>          
 </table>
 
 **Response Body**: 
