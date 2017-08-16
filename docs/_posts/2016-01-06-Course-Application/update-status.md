@@ -18,12 +18,16 @@ type : 'POST'
   {
     "application_id": 67,
     "status_id": 11,
-    "is_packaged": false
+    "is_packaged": false,
+    "comments": "Test comments",
+    "update_log": "Status change from New to In Process for application to Diploma in Graphic Design for the Web - Montreal made on 07/07/2017 - 4:00 PM UTC"
   },
   {
     "application_id": 109,
     "status_id": 1,
-    "is_packaged": false
+    "is_packaged": false,
+    "comments": "Test comments",
+    "update_log": "Status change from New to In Process for application to Diploma in Graphic Design for the Web - Montreal made on 07/07/2017 - 4:00 PM UTC"
   }
 ]```
 
@@ -51,6 +55,18 @@ type : 'POST'
       <td class="table-required"> No </td>
 		<td class="table-data-type"> boolean </td>
 		<td class="table-description">   </td>
+	</tr> 
+  <tr>
+		<td class="table-fieldname"> comments </td>
+      <td class="table-required"> Yes </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> Comments </td>
+	</tr> 
+  <tr>
+		<td class="table-fieldname"> update_log </td>
+      <td class="table-required"> Yes </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> Update Log </td>
 	</tr> 
 
 </table>
