@@ -3,7 +3,6 @@ category: Course Application
 endpoint: '/api/course-application/status-history-list'
 title: 'Course Applied Status History'
 type : 'POST'
-layout: nil
 ---
 ### **Description** : Get course application status changes history by course application history status id.
 

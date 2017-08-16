@@ -3,7 +3,6 @@ category: Manage Students
 endpoint: '/api/student/file/update'
 title: 'Update Student File'
 type : 'POST'
-layout: nil
 ---
 
 ### Request

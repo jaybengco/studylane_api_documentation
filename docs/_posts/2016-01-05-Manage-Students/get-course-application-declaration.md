@@ -3,7 +3,7 @@ category: Manage Students
 endpoint: '/api/student/course-application/declaration/:student_id'
 title: 'Get Course Application Declaration'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Returns course application declaration - to know whoever applied a course on behalf of a student
 
