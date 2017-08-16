@@ -1,6 +1,6 @@
 ---
 title: 'Setting Headers Token'
-layout: nil
+
 ---
 
 * The headers must set Content-Type.

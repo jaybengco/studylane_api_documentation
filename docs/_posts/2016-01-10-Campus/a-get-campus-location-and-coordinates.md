@@ -3,7 +3,7 @@ category: Campus
 endpoint: '/api/campus/get-location-with-coordinates'
 title: 'Campus Locations with Geocode'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Get campus locations and coordinates
 

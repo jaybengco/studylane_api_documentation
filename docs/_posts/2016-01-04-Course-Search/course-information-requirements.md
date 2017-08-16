@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/course-information-requirements/:course_id/:campus_id'
 title: 'Course Information Course Requirements'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Get course information requirements for a specific course.
 

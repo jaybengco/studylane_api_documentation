@@ -3,7 +3,7 @@ category: SAMPLE
 endpoint: '/api/'
 title: 'Get'
 type : 'GET'
-layout: nil
+
 ---
 ### **Description** : api description
 

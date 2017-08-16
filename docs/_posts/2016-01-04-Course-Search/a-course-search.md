@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/search'
 title: 'Search Courses By Filters'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Provide list of courses based on filters and keywords.
 

@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/get-courses-bubble-details'
 title: 'Courses Bubble Details'
 type : 'POST'
-layout: nil
+
 ---
 
 ### Request

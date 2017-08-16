@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/course-information-population/:course_id/:campus_id'
 title: 'Course Information Campus Population'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Get course information population for a specific course.
 

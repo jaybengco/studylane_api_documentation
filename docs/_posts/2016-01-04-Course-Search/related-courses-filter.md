@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/filter/related-courses'
 title: 'Related Courses Filter'
 type : 'POST'
-layout: nil
+
 ---
 
 ### Request

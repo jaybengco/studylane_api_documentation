@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/course-information-institution-profile/:course_id/:campus_id'
 title: 'Course Information Institution Profile'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Get course information institution profile for a specific course.
 

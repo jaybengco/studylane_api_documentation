@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/get-course-details'
 title: 'Course Details'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Get course detail for a specific course.
 

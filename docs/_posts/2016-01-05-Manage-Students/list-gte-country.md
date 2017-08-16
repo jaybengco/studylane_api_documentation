@@ -3,7 +3,7 @@ category: Manage Students
 endpoint: '/api/student/gte/country/list'
 title: 'GTE Country List'
 type : 'POST'
-layout: nil
+
 ---
 
 ### Request

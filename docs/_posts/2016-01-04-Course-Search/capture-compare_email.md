@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/capture-email/compare'
 title: 'Capture Compare Email'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Capture and send course compare results to email.
 

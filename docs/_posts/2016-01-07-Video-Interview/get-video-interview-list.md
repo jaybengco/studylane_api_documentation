@@ -3,7 +3,7 @@ category: Video Interview
 endpoint: '/api/student/video-interview/preview/list/:student_id'
 title: 'Get Video Interview List'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Get students video interview list for preview.
 

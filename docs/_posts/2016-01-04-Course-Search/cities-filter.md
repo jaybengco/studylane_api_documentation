@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/filter/cities'
 title: 'Cities Filter'
 type : 'POST'
-layout: nil
+
 ---
 
 ### Request

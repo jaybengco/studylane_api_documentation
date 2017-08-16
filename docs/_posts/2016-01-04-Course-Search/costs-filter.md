@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/filter/costs'
 title: 'Costs Filter'
 type : 'POST'
-layout: nil
+
 ---
 
 ### Request

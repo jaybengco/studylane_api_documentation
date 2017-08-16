@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/filter/programs'
 title: 'Programs Filter'
 type : 'POST'
-layout: nil
+
 ---
 
 ### Request

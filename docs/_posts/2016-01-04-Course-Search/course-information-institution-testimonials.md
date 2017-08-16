@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/get-course-details/institution-testimonials/:course_id/:campus_id'
 title: 'Course Information - Institution Testimonials'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Get Institution Testimonials
 

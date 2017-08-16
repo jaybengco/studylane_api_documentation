@@ -1,6 +1,6 @@
 ---
 title: 'HOW-TO'
-layout: nil
+
 ---
 
 

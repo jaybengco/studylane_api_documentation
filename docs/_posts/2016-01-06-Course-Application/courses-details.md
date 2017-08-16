@@ -3,7 +3,7 @@ category: Course Application
 endpoint: '/api/course-application/get-courses-details'
 title: 'Courses Details'
 type : 'POST'
-layout: nil
+
 ---
 
 ### Request

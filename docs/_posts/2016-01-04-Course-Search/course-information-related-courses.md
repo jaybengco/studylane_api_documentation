@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/course-information-accommodation-and-facilities/:course_id/:campus_id'
 title: 'Course Information Related Course'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Get course information accommodation and facilities for a specific course.
 

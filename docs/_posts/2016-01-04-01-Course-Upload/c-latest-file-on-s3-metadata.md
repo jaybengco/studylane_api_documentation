@@ -3,7 +3,7 @@ category: Course Upload
 endpoint: '/course-upload/get-latest-courses-metadata'
 title: 'Get Latest file metadata on S3'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Get metadata of latest file uploaded on S3 by studylink.
 

@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/get-compared-courses-details'
 title: 'Compare Courses Details'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Get compared courses details.
 

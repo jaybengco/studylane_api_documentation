@@ -3,7 +3,7 @@ category: Course Application
 endpoint: '/api/course-application/apply-courses'
 title: 'Apply Courses'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Apply courses to student.
 

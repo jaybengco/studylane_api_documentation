@@ -3,7 +3,7 @@ category: SAMPLE
 endpoint: '/api/'
 title: 'Post with Authentication'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : api description
 

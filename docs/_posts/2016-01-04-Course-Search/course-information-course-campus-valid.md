@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/course-information-fees/:course_id/:campus_id'
 title: 'Course Information Course Campus Valid'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Validate if Course and Campus ID Exists.
 

@@ -3,7 +3,7 @@ category: Course Application
 endpoint: '/api/course-application/status/update'
 title: 'Update Status'
 type : 'POST'
-layout: nil
+
 ---
 ### Description : Update course application status.
 ### Request

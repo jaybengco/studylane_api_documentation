@@ -3,7 +3,7 @@ category: Manage Students
 endpoint: '/api/manage-student/list'
 title: 'List Students'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Get list of students that the logged user can manage.
 

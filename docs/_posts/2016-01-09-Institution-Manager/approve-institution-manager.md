@@ -3,7 +3,7 @@ category: Institution Manager
 endpoint: '/api/admin/manage-list/institution-manager/approve/:user-id'
 title: 'Approve institution manager'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Approve institution manager.
 ### Request

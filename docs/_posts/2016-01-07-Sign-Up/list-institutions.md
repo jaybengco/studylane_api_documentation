@@ -3,7 +3,7 @@ category: Sign Up
 endpoint: '/api/signup/instution/list'
 title: 'Institution List'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : List available institutions
 

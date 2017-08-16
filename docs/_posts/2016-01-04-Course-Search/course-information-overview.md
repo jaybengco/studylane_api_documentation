@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/course-information-overview/:course_id/:campus_id'
 title: 'Course Information Course Overview'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Get course information overview for a specific course.
 

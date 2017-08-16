@@ -3,7 +3,7 @@ category: Manage Students
 endpoint: '/api/student/gte/get-form'
 title: 'GTE Get Form'
 type : 'POST'
-layout: nil
+
 ---
 
 ### Request

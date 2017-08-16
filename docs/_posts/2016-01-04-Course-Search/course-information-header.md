@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/course-information-header/:course_id/:campus_id'
 title: 'Course Information Header'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Get course information header for a specific course and campus.
 

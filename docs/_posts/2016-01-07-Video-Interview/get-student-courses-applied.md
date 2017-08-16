@@ -3,7 +3,7 @@ category: Video Interview
 endpoint: '/api/student/video-interview/course-applied/:student_id'
 title: 'Get Student Course	'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Get student courses applied video interview status ( if allowed to be called or not ).
 ### Request

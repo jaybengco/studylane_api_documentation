@@ -3,7 +3,7 @@ category: Course Application
 endpoint: '/api/course-application/student/:id'
 title: 'Course Applied Details'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Get student course application details.
 

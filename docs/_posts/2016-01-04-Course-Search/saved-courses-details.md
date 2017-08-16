@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/get-saved-courses-details'
 title: 'Saved Courses Details'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Get saved courses details.
 

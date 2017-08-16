@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/filter/durations'
 title: 'Durations Filter'
 type : 'POST'
-layout: nil
+
 ---
 
 ### Request

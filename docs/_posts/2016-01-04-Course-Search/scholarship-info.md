@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/scholarship/:id'
 title: 'Scholarship Info'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Get scholarship information based on scholarship Id.
 

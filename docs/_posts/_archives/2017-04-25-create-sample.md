@@ -4,7 +4,7 @@ endpoint: '/sample/:id'
 title: 'show a thing'
 type: 'GET'
 
-layout: nil
+
 ---
 
 This is something for testing.

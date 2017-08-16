@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/capture-email/search'
 title: 'Capture Search Email'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Capture and send ( first 6 or less ) course search results to email.
 

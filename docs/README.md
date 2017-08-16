@@ -42,7 +42,7 @@ path: '/stuff/:id'
 title: 'Delete a thing'
 type: 'DELETE'
 
-layout: nil
+
 ---
 ```
 
@@ -59,7 +59,7 @@ path: '/stuff/:id'
 title: 'Delete a thing'
 type: 'DELETE'
 
-layout: nil
+
 ---
 ```
 

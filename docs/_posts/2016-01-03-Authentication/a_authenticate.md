@@ -3,7 +3,7 @@ category: Authentication
 endpoint: '/api/authenticate'
 title: 'Authenticate'
 type : 'POST'
-layout: nil
+
 ---
 
 ### Request

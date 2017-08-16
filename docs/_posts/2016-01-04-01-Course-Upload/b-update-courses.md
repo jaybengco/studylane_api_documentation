@@ -3,7 +3,7 @@ category: Course Upload
 endpoint: '/api/course-upload/update'
 title: 'Update courses from latest on S3'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Update courses based on latest file uploaded on S3 by studylink.
 

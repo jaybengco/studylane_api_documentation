@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/course-information-fees/:course_id/:campus_id'
 title: 'Course Information Campus Info'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Get campus information for a specific course.
 

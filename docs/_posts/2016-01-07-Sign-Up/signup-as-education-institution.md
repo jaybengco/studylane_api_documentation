@@ -3,7 +3,7 @@ category: Sign Up
 endpoint: '/api/signup/institution-manager'
 title: 'Signup as Education Institution'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Signup as Education Institution.
 

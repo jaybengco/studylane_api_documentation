@@ -3,7 +3,7 @@ category: Institution Manager
 endpoint: '/api/admin/manage-list/institution-manager'
 title: 'Get Institution Manager List	'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Get institution manager list for admin.
 ### Request

@@ -3,7 +3,7 @@ category: Course Upload
 endpoint: '/api/course-upload/is-current-courses-latest'
 title: 'Check If Courses is Latest'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Compare latest courses, based on DB history status, to latest file on S3, uploaded by studylink.
 

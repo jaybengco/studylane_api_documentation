@@ -3,7 +3,7 @@ category: Manage Students
 endpoint: '/api/student/course-application/notes/:student_id'
 title: 'Student Details - Get Course Application Notes'
 type : 'POST'
-layout: nil
+
 ---
 
 ### Request

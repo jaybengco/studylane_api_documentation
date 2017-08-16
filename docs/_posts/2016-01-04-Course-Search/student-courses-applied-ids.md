@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/course-search/student/courses-appllied/:id'
 title: 'Student Courses Applied Ids'
 type : 'POST'
-layout: nil
+
 ---
 
 ### **Description** : Provide students already applied courses by campus.

@@ -3,7 +3,7 @@ category: Course Upload
 endpoint: '/api/course-upload/history/all'
 title: 'Get all course update history'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Get all update history, ordered by latest, with info of who & when it was done.
 

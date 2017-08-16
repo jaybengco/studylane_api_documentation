@@ -3,7 +3,7 @@ category: Course Search
 endpoint: '/api/couse-search/count/course'
 title: 'Institution Count'
 type : 'POST'
-layout: nil
+
 ---
 ### **Description** : Count institutions based on filters and keywords.
 
