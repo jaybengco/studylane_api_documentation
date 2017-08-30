@@ -5,7 +5,7 @@ title: 'Note History List'
 type : 'POST'
 
 ---
-### **Description** : Save note
+### **Description** : Displaying of note history list per student
 
 ### Request
 
