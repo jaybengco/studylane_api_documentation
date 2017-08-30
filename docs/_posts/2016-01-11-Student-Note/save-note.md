@@ -1,5 +1,5 @@
 ---
-category: Student-Note
+category: Student Note
 endpoint: '/api/student/notes/save'
 title: 'Save Student Note'
 type : 'POST'
@@ -80,11 +80,9 @@ type : 'POST'
   "status": "success",
   "actor": "/api/save/note",
   "hostname": "Pelican-3.local",
-  "reference_data": [
-    {
-      "note_id": 9
-    }
-  ]
+  "reference_data": {
+		"note_id": 9
+  }  
 }```
 
 <!--[ TODO: Fields
