@@ -1,5 +1,5 @@
 ---
-category: Student-Note
+category: Student Note
 endpoint: '/api/student/notes/history-list/:student_id'
 title: 'Note History List'
 type : 'POST'

@@ -1,5 +1,5 @@
 ---
-category: Student-Note
+category: Student Note
 endpoint: '/student/notes/relates-to/:student_note_id'
 title: 'Note Relates To'
 type : 'POST'

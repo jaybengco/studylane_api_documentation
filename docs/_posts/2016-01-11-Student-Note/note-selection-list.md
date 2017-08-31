@@ -1,5 +1,5 @@
 ---
-category: Student-Note
+category: Student Note
 endpoint: '/api/student/notes/selection'
 title: 'Selection List'
 type : 'POST'
