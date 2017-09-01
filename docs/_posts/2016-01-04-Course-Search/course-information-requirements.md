@@ -41,6 +41,7 @@ type : 'POST'
         "gre_scores_verbal_reasoning": null,
         "gre_scores_quantitative_reasoning": null,
         "gre_scores_analytic_writing": null,
+        "cae_score": null,
         "sat_scores": null,
         "act_scores": null,
         "pte_academic_scores": null,
