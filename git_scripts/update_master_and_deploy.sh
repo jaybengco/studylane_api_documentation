@@ -12,4 +12,7 @@ git pull origin $DEVELOPMENT_BRANCH &&
 git checkout $DEPLOYMENT_BRANCH &&
 git merge $DEVELOPMENT_BRANCH && 
 git push origin $DEPLOYMENT_BRANCH &&
-echo 'DONE MERGE FROM '$DEVELOPMENT_BRANCH' to '$DEPLOYMENT_BRANCH' branch';
+echo "DONE MERGE FROM $DEVELOPMENT_BRANCH to $DEPLOYMENT_BRANCH branch";
+
+#GO BACK TO development branch
+git checkout $DEVELOPMENT_BRANCH;
