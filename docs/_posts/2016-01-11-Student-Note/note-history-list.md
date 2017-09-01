@@ -44,7 +44,7 @@ type : 'POST'
       }
     ],
     "user_name": "Test Name",
-    "role": "Agent",
+    "role_id": "5",
     "student_note_reminder_id": 2,
     "is_student_only": true,
     "is_all": false
@@ -67,7 +67,7 @@ type : 'POST'
       }
     ],
     "user_name": "Test Name",
-    "role": "Agent",
+    "role_id": "5",
     "student_note_reminder_id": 2,
     "is_student_only": true,
     "is_all": false
@@ -118,9 +118,9 @@ type : 'POST'
 		<td class="table-description"> Name of the creator of the note</td>
 	</tr>  
 	<tr>
-		<td class="table-fieldname"> role </td>
-		<td class="table-data-type"> String </td>
-		<td class="table-description"> Role of the creator of the note</td>
+		<td class="table-fieldname"> role_id </td>
+		<td class="table-data-type"> Integer </td>
+		<td class="table-description"> Role ID of the creator of the note</td>
 	</tr> 
 	<tr>
 		<td class="table-fieldname"> student_note_reminder_id </td>
