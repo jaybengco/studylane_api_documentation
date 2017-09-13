@@ -1,6 +1,6 @@
 ---
 category: Admin Tools
-endpoint: '/save/coutry-manager-email'
+endpoint: '/coutry-manager-email/save'
 title: 'Save Country Managers Emails'
 type : 'POST'
 
@@ -8,7 +8,7 @@ type : 'POST'
 ### **Description** : Save Country Managers Emails.
 ### Request
 
-**Endpoint** : **`URL`** /save/coutry-manager-email
+**Endpoint** : **`URL`** /coutry-manager-email/save
 
 * The headers must be properly [set](#/Info-setting-headers-token).
 

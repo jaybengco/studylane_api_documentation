@@ -1,6 +1,6 @@
 ---
 category: Admin Tools
-endpoint: '/delete/coutry-manager-email'
+endpoint: '/coutry-manager-email/delete'
 title: 'Delete Country Managers Emails'
 type : 'POST'
 
@@ -8,7 +8,7 @@ type : 'POST'
 ### **Description** : Delete Country Managers Emails.
 ### Request
 
-**Endpoint** : **`URL`** /delete/coutry-manager-email
+**Endpoint** : **`URL`** /coutry-manager-email/delete
 
 * The headers must be properly [set](#/Info-setting-headers-token).
 

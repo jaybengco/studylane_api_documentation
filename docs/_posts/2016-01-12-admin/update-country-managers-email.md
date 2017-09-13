@@ -1,6 +1,6 @@
 ---
 category: Admin Tools
-endpoint: '/update/coutry-manager-email'
+endpoint: '/coutry-manager-email/update'
 title: 'Update Country Managers Emails'
 type : 'POST'
 
@@ -8,7 +8,7 @@ type : 'POST'
 ### **Description** : Update Country Managers Emails.
 ### Request
 
-**Endpoint** : **`URL`** /update/coutry-manager-email
+**Endpoint** : **`URL`** /coutry-manager-email/update
 
 * The headers must be properly [set](#/Info-setting-headers-token).
 
