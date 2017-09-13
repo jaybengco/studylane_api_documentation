@@ -1,6 +1,6 @@
 ---
 category: Admin Tools
-endpoint: '/coutry-manager-email/save'
+endpoint: '/country-manager-email/save'
 title: 'Save Country Managers Emails'
 type : 'POST'
 
@@ -8,7 +8,7 @@ type : 'POST'
 ### **Description** : Save Country Managers Emails.
 ### Request
 
-**Endpoint** : **`URL`** /coutry-manager-email/save
+**Endpoint** : **`URL`** /country-manager-email/save
 
 * The headers must be properly [set](#/Info-setting-headers-token).
 
@@ -43,7 +43,7 @@ type : 'POST'
 ```{
     "success": true,
     "status": "success",
-    "actor": "/api/admin/save/coutry-manager-email",
+    "actor": "/api/admin/save/country-manager-email",
     "hostname": "maleo.local",
     "reference_data": "Successfuly Saved!"
 }```
@@ -54,7 +54,7 @@ type : 'POST'
 ```{
     "success": false,
     "status": "failure",
-    "actor": "/api/admin/save/coutry-manager-email",
+    "actor": "/api/admin/save/country-manager-email",
     "hostname": "maleo.local",
     "reference_data": "Invalid Email format"
 }```

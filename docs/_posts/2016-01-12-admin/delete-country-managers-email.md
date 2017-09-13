@@ -1,6 +1,6 @@
 ---
 category: Admin Tools
-endpoint: '/coutry-manager-email/delete'
+endpoint: '/country-manager-email/delete'
 title: 'Delete Country Managers Emails'
 type : 'POST'
 
@@ -8,7 +8,7 @@ type : 'POST'
 ### **Description** : Delete Country Managers Emails.
 ### Request
 
-**Endpoint** : **`URL`** /coutry-manager-email/delete
+**Endpoint** : **`URL`** /country-manager-email/delete
 
 * The headers must be properly [set](#/Info-setting-headers-token).
 
@@ -37,7 +37,7 @@ type : 'POST'
 ```{
     "success": true,
     "status": "success",
-    "actor": "/api/admin/save/coutry-manager-email",
+    "actor": "/api/admin/save/country-manager-email",
     "hostname": "maleo.local",
     "reference_data": "Successfuly Deleted!"
 }```

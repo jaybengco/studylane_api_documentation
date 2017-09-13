@@ -1,6 +1,6 @@
 ---
 category: Admin Tools
-endpoint: '/coutry-manager-email/update'
+endpoint: '/country-manager-email/update'
 title: 'Update Country Managers Emails'
 type : 'POST'
 
@@ -8,7 +8,7 @@ type : 'POST'
 ### **Description** : Update Country Managers Emails.
 ### Request
 
-**Endpoint** : **`URL`** /coutry-manager-email/update
+**Endpoint** : **`URL`** /country-manager-email/update
 
 * The headers must be properly [set](#/Info-setting-headers-token).
 
@@ -49,7 +49,7 @@ type : 'POST'
 ```{
     "success": true,
     "status": "success",
-    "actor": "/api/admin/save/coutry-manager-email",
+    "actor": "/api/admin/save/country-manager-email",
     "hostname": "maleo.local",
     "reference_data": "Successfuly Updated!"
 }```
@@ -60,7 +60,7 @@ type : 'POST'
 ```{
     "success": false,
     "status": "failure",
-    "actor": "/api/admin/save/coutry-manager-email",
+    "actor": "/api/admin/save/country-manager-email",
     "hostname": "maleo.local",
     "reference_data": "Invalid Email format"
 }```
