@@ -1,6 +1,6 @@
 ---
 category: Admin Tools
-endpoint: '/api/admin/institution-list'
+endpoint: '/api/admin/institution-territories/institution-list'
 title: 'Get Institution List'
 type : 'POST'
 
@@ -8,7 +8,7 @@ type : 'POST'
 ### **Description** : Get Institution List.
 ### Request
 
-**Endpoint** : **`URL`** /api/admin/institution-list
+**Endpoint** : **`URL`** /api/admin/institution-territories/institution-list
 
 * The headers must be properly [set](#/Info-setting-headers-token).
 
