@@ -20,19 +20,19 @@ type : 'POST'
 
 ```[
      {
-      "id": "pid-mi-au-9554",
+      "institution_id": "pid-mi-au-9554",
       "trading_name": "AAPoly, AMI Education"
     },
     {
-      "id": "pid-mi-au-6616",
+      "institution_id": "pid-mi-au-6616",
       "trading_name": "Academies Australasia Institute"
     },
     {
-      "id": "pid-mi-au-6623",
+      "institution_id": "pid-mi-au-6623",
       "trading_name": "Academy of English and Academy of English (Blue Mountains)"
     },
     {
-      "id": "pid-mi-au-10950",
+      "institution_id": "pid-mi-au-10950",
       "trading_name": "Anglican Schools Commission International (ASCI)"
     },
 	...
@@ -47,7 +47,7 @@ type : 'POST'
 		<th class="table-description"> Description </th>
 	</tr>
 	<tr>
-		<td class="table-fieldname"> id </td>
+		<td class="table-fieldname"> institution_id </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> Institution ID</td>
 	</tr>  
