@@ -1,7 +1,7 @@
 ---
 category: Course Application
-endpoint: '/api/course-application/validate-courses-via-territory-rule'
-title: 'Validate Courses Via Territory Rule'
+endpoint: '/api/course-application/validate-courses-via-territory-rule-via-student-nationality/:student_id'
+title: 'Validate Courses Via Territory Rule on Students Nationality'
 type : 'POST'
 ---
 
@@ -12,8 +12,9 @@ type : 'POST'
 
 ### Request
 
-**Endpoint** : **`URL`** /api/course-application/validate-courses-via-territory-rule
+**Endpoint** : **`URL`** /api/course-application/validate-courses-via-territory-rule-via-student-nationality/:student_id
 * The headers must be properly [set](#/Info-setting-headers).
+* **`:student_id`** is the student id to get the note history list
 
 **Request Body**: 
 
@@ -37,6 +38,7 @@ Request is an array of 'course-id'
   "actor": "....",
   "hostname": "....",
   "reference_data": {
+    "student_nationality": "Philippines",
     "not_allowed_to_apply_courses": [
       {
         "course_id": "cid-mi-346295",
