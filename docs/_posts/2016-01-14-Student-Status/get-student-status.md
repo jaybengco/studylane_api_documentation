@@ -30,8 +30,8 @@ type : 'POST'
     "student_status_order_sequence": -5,
     "student_status_name": "New",
     "student_status_label": "New",
-    "student_status_is_manual": true,
-    "student_is_allowed_to_update_status": true
+    "student_status_is_manual": 1,
+    "student_is_allowed_to_update_status": 1
   }
 }```
 
@@ -58,12 +58,12 @@ type : 'POST'
 	</tr>
 	<tr>
 		<td class="table-fieldname"> student_status_is_manual </td>
-		<td class="table-data-type"> Boolean </td>
+		<td class="table-data-type"> Integer </td>
 		<td class="table-description"> Returns whether the current student status can be set manually </td>
 	</tr>
     <tr>
 		<td class="table-fieldname"> student_is_allowed_to_update_status </td>
-		<td class="table-data-type"> Boolean </td>
+		<td class="table-data-type"> Integer </td>
 		<td class="table-description"> Can the status still be set manually </td>
 	</tr>
 
