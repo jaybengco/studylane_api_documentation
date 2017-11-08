@@ -1,7 +1,7 @@
 ---
 category: Student Status
 endpoint: '/student-status/update-student-status-manual'
-title: 'Student Status - List for Manual (dropdown list)'
+title: 'Student Status - Update Student Status Manually'
 type : 'POST'
 
 ---
@@ -14,11 +14,11 @@ type : 'POST'
 
 **Request Body**: 
 
-{
+```{
   "student_id": 1234,
   "status_id": 1,
   "note": "changes"
-}
+}```
 
 <table>
 	<tr>
@@ -54,9 +54,9 @@ type : 'POST'
   "hostname": "mockness",
   "reference_data": [
     {
-		"student_id": 1234,
-		"status_id": 1,
-		"note": "changes"
+	"student_id": 1234,
+	"status_id": 1,
+	"note": "changes"
     }
   ]
 }```
