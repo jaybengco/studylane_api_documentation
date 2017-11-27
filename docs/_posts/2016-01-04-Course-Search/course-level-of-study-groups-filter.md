@@ -1,7 +1,7 @@
 ---
-category: Level of Study Groups Filter
+category: "Course Search"
 endpoint: '/api/course-search/filter/level-of-study-groups'
-title: 'Student Status - List for Manual (dropdown list)'
+title: 'Level of Study Groups Filter'
 type : 'POST'
 
 ---
