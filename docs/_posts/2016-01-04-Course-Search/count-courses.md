@@ -22,6 +22,7 @@ type : 'POST'
   "country_id": "Australia",
   "state_id": "",
   "city_id": "",
+  "grouped_city_id": "",  
   "institution_id": "pid-mi-au-9607",
   "duration_id": 0,
   "cost_id": 0,
@@ -72,6 +73,12 @@ type : 'POST'
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> </td>
 	</tr> 
+    <tr>
+		<td class="table-fieldname"> grouped_city_id </td>
+        <td class="table-required"> Optional </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> </td>
+	</tr>     
     <tr>
 		<td class="table-fieldname"> state_id </td>
         <td class="table-required"> Optional </td>

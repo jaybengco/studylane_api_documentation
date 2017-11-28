@@ -24,6 +24,7 @@ type : 'POST'
   "city_id": "",
   "institution_id": "pid-mi-au-9607",
   "duration_id": 0,
+  "grouped_city_id": "",
   "cost_id": 0,
   "scholarship_id": 0,
   "english_language_score_type":"IELTS",

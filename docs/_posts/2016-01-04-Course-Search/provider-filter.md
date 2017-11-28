@@ -18,6 +18,7 @@ type : 'POST'
   "scholarship_id": 29,
   "country_id": "Australia",
   "city_id": "",
+  "grouped_city_id": "",	
   "state_id": ""
 }```
 
@@ -47,6 +48,12 @@ type : 'POST'
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> City</td>
 	</tr> 
+    <tr>
+		<td class="table-fieldname"> grouped_city_id </td>
+        <td class="table-required"> Optional </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> </td>
+	</tr> 	
 	<tr>
 		<td class="table-fieldname"> state_id </td>
         <td class="table-required"> No </td>
