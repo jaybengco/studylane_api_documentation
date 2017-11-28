@@ -1,6 +1,6 @@
 ---
 category: Student Status
-endpoint: '/api/student-status/get-student-status-total-count-grouped-by-agent'
+endpoint: '/api/student-status/agency-details-csv'
 title: 'Student Status - Get Total Count Grouped By Agent'
 type : 'POST'
 
