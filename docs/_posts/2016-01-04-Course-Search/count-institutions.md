@@ -18,6 +18,7 @@ type : 'POST'
 ```{
   "keywords": "Engineering | Arch",
   "level_of_study": "",
+  "level_of_study_group_id" : "",
   "country_id": "Australia",
   "state_id": "",
   "city_id": "",

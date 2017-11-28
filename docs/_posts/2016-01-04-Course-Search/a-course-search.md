@@ -20,6 +20,7 @@ type : 'POST'
   "random_order_id": 43215,
   "keywords": "Engineering | Arch",
   "level_of_study": "",
+  "level_of_study_group_id" : "",
   "country_id": "Australia",
   "state_id": "",
   "city_id": "",
