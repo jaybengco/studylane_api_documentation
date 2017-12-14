@@ -65,7 +65,8 @@ type : 'POST'
       "course_name": "Bachelor of Education (Health and Physical Education)",
       "course_duration": 4,
       "course_duration_unit": "year",
-      "institution_trading_name": "Charles Sturt University"
+      "institution_trading_name": "Charles Sturt University",
+      "institution_name": "Charles Sturt University"
     },
     {
       "course_id": "cid-mm-01-75975",
@@ -74,6 +75,7 @@ type : 'POST'
       "course_duration": 3,
       "course_duration_unit": "year",
       "institution_trading_name": "The University of Sydney"
+      "institution_name": "The University of Sydney"
     }
   ]
 }```
@@ -90,5 +92,10 @@ type : 'POST'
 		<td class="table-data-type"> Integer </td>
 		<td class="table-description"> Institutions ID</td>
 	</tr>  
+  <tr>
+		<td class="table-fieldname"> institution_name </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> Name of the institution (Provider Name) </td>
+	</tr> 
 </table>
 ]-->
