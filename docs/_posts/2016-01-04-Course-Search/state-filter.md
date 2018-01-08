@@ -24,7 +24,9 @@ x-project-id: PROJECT_ID```
   "scholarship_id": 0,
   "country_id": "Australia",
   "institution_id": "",
-  "state_id" : ""
+  "state_id" : "",
+  "city_id": "",
+  "grouped_city_id": ""
 }```
 
 
@@ -58,6 +60,18 @@ x-project-id: PROJECT_ID```
         <td class="table-required"> No </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> State</td>
+	</tr>   
+	    <tr>
+		<td class="table-fieldname"> city_id </td>
+        <td class="table-required"> Optional </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> </td>
+	</tr> 
+    <tr>
+		<td class="table-fieldname"> grouped_city_id </td>
+        <td class="table-required"> Optional </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> </td>
 	</tr>   
 </table>
 

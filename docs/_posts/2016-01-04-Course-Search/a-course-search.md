@@ -20,9 +20,11 @@ type : 'POST'
   "random_order_id": 43215,
   "keywords": "Engineering | Arch",
   "level_of_study": "",
+  "level_of_study_group_id" : "",
   "country_id": "Australia",
   "state_id": "",
   "city_id": "",
+  "grouped_city_id": "",
   "institution_id": "pid-mi-au-9607",
   "duration_id": 0,
   "cost_id": 0,
@@ -92,6 +94,12 @@ type : 'POST'
 		<td class="table-description"> </td>
 	</tr> 
     <tr>
+		<td class="table-fieldname"> grouped_city_id </td>
+        <td class="table-required"> Optional </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> </td>
+	</tr>     
+    <tr>
 		<td class="table-fieldname"> state_id </td>
         <td class="table-required"> Optional </td>
 		<td class="table-data-type"> String </td>
@@ -154,14 +162,14 @@ type : 'POST'
     <tr>
 		<td class="table-fieldname"> english_language_score </td>
         <td class="table-required"> Optional </td>
-		<td class="table-data-type"> String | Integer </td>
+		<td class="table-data-type"> Integer </td>
 		<td class="table-description"> 
             <ul>
                 <li>IELTS : 1 ~ 9</li>
                 <li>TOEFL iBT : 0 ~ 120</li>
                 <li>TOEFL pBT : 310 ~ 677</li>
                 <li>PTE : 10 ~ 90</li>
-                <li>Cambridge : A1 ~ C2</li>
+                <li>Cambridge : 80 ~ 220</li>
             </ul>
         </td>
 	</tr>       

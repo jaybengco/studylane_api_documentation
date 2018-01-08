@@ -18,6 +18,7 @@ type : 'POST'
   "scholarship_id": 29,
   "country_id": "Australia",
   "city_id": "",
+  "grouped_city_id": "",	
   "state_id": ""
 }```
 
@@ -47,6 +48,12 @@ type : 'POST'
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> City</td>
 	</tr> 
+    <tr>
+		<td class="table-fieldname"> grouped_city_id </td>
+        <td class="table-required"> Optional </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> </td>
+	</tr> 	
 	<tr>
 		<td class="table-fieldname"> state_id </td>
         <td class="table-required"> No </td>
@@ -69,11 +76,13 @@ type : 'POST'
   "reference_data": [
     {
       "id": "pid-mi-au-9607",
-      "trading_name": "Charles Sturt University"
+      "trading_name": "Charles Sturt University",
+			"institution_name": "Charles Sturt University"
     },
     {
       "id": "pid-mi-au-9792",
-      "trading_name": "The University of Sydney"
+      "trading_name": "The University of Sydney",
+			"institution_name": "The University of Sydney"
     }
   ]
 }```
@@ -94,5 +103,11 @@ type : 'POST'
 		<td class="table-fieldname"> trading_name </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> Name of the institution </td>
-	</tr>   
+	</tr>
+	<tr>
+		<td class="table-fieldname"> institution_name </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description"> Name of the institution (Provider Name) </td>
+	</tr> 
+	
 </table>

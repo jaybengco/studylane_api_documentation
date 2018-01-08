@@ -18,11 +18,13 @@ type : 'POST'
 ```{
   "keywords": "Engineering | Arch",
   "level_of_study": "",
+  "level_of_study_group_id" : "",
   "country_id": "Australia",
   "state_id": "",
   "city_id": "",
   "institution_id": "pid-mi-au-9607",
   "duration_id": 0,
+  "grouped_city_id": "",
   "cost_id": 0,
   "scholarship_id": 0,
   "english_language_score_type":"IELTS",
@@ -134,14 +136,14 @@ type : 'POST'
     <tr>
 		<td class="table-fieldname"> english_language_score </td>
         <td class="table-required"> Optional </td>
-		<td class="table-data-type"> String | Integer </td>
+		<td class="table-data-type"> Integer </td>
 		<td class="table-description"> 
             <ul>
                 <li>IELTS : 1 ~ 9</li>
                 <li>TOEFL iBT : 0 ~ 120</li>
                 <li>TOEFL pBT : 310 ~ 677</li>
                 <li>PTE : 10 ~ 90</li>
-                <li>Cambridge : A1 ~ C2</li>
+                <li>Cambridge : 80 ~ 220</li>
             </ul>
         </td>
 	</tr>          

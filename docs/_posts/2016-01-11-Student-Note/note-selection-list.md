@@ -1,5 +1,5 @@
 ---
-category: Student-Note
+category: Student Note
 endpoint: '/api/student/notes/selection'
 title: 'Selection List'
 type : 'POST'
@@ -41,25 +41,24 @@ type : 'POST'
 ```Status: 200```
 
 ```{
-  "success": true,
-  "status": "success",
-  "actor": "/api/save/note",
-  "hostname": "Pelican-3.local",
-  "reference_data": [
-    {  
-      "course_name": "Doctor of Communication (by Research)",
-      "course_id": "cid-mm-01-93333",
-      "trading_name": "AAPoly, AMI Education"
-    },
-    {
-      "course_name": "Doctor of Communication (by Research)",
-      "course_id": "cid-mm-01-93333",
-      "trading_name": "Academies Australasia Institute"
-    },
-    {      
-      "course_name": "Doctor of Communication (by Research)",
-      "course_id": "cid-mm-01-93333",
-      "trading_name": "Academy of English and Academy of English (Blue Mountains)"
-    }
-  ]
+    "success": true,
+    "status": "success",
+    "actor": "/api/student/notes/selection",
+    "hostname": "Plover.local",
+    "reference_data": [
+        {
+            "course_application_id": 129,
+            "campus_name": "Canberra",
+            "course_name": "ANU Access English",
+            "institution_trading_name": "ANU College",
+            "provider_id": "pid-mi-au-9550"
+        },
+        {
+            "course_application_id": 128,
+            "campus_name": "Canberra",
+            "course_name": "ANU College Foundation Studies Rapid",
+            "institution_trading_name": "ANU College",
+            "provider_id": "pid-mi-au-9550"
+        }
+    ]
 }```
