@@ -202,6 +202,7 @@ type : 'POST'
       "campus_country": "Australia",
       "institution_id": "pid-mi-au-9607",
       "institution_trading_name": "Charles Sturt University",
+      "institution_name": "Charles Sturt University",
       "campus_preview_image_url": "https://d2hpwmayxrmlo8.cloudfront.net/webservice-manager/course-search/banners/default/qcaps-default-01.png",
       "institution_logo_url": "https://d2hpwmayxrmlo8.cloudfront.net/webservice-manager/course-search/logos/default/qcaps-default-01.png"
     },
@@ -220,6 +221,7 @@ type : 'POST'
       "campus_country": "Australia",
       "institution_id": "pid-mi-au-9607",
       "institution_trading_name": "Charles Sturt University",
+      "institution_name": "Charles Sturt University",
       "campus_preview_image_url": "https://d2hpwmayxrmlo8.cloudfront.net/webservice-manager/course-search/banners/default/qcaps-default-01.png",
       "institution_logo_url": "https://d2hpwmayxrmlo8.cloudfront.net/webservice-manager/course-search/logos/default/qcaps-default-01.png"
     },
@@ -238,6 +240,7 @@ type : 'POST'
       "campus_country": "Australia",
       "institution_id": "pid-mi-au-9607",
       "institution_trading_name": "Charles Sturt University",
+      "institution_name": "Charles Sturt University",
       "campus_preview_image_url": "https://d2hpwmayxrmlo8.cloudfront.net/webservice-manager/course-search/banners/default/qcaps-default-01.png",
       "institution_logo_url": "https://d2hpwmayxrmlo8.cloudfront.net/webservice-manager/course-search/logos/default/qcaps-default-01.png"
     }

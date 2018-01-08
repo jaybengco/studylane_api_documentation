@@ -80,6 +80,7 @@ type : 'POST'
             "has_bridging_program": 0,
             "institution_id": "pid-mi-au-9607",
             "institution_trading_name": "Charles Sturt University",
+            "insitution_name": "Charles Sturt University 12",
             "cricos_provider_code": "00005F",
             "institution_type": "University",
             "website_url": "http://www.csu.edu.au/",
