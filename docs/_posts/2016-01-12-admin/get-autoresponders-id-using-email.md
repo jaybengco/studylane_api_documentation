@@ -1,6 +1,6 @@
 ---
 category: Admin Tools
-endpoint: '/api/admin/qa-personnel/get-id
+endpoint: '/api/admin/qa-personnel/get-id'
 title: 'Get Autoresponders ID using Email'
 type : 'POST'
 
