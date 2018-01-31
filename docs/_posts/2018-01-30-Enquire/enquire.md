@@ -44,6 +44,102 @@ type : 'POST'
   ]
 }```
 
+<table>
+	<tr>
+		<th class="table-fieldname"> Fieldname </th>
+		<th class="table-required"> Required </th>    
+		<th class="table-data-type"> Data type </th>
+		<th class="table-description"> Description </th>
+	</tr>
+	<tr>
+		<td class="table-fieldname"> firstname </td>
+    <td class="table-required"> yes </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description">mandatory field + free text field alphanumeric + special characters + up to 250 characters</td>
+	</tr>  
+	<tr>
+		<td class="table-fieldname"> lastname </td>
+    <td class="table-required"> yes </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description">mandatory field + free text field alphanumeric + special characters + up to 250 characters</td>
+	</tr>  
+	<tr>
+		<td class="table-fieldname"> email </td>
+    <td class="table-required"> yes </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description">mandatory field + free text field alphanumeric + special characters + format should be xxx@xx.xx + up to 250 characters</td>
+	</tr>    
+	<tr>
+		<td class="table-fieldname"> contact_number </td>
+    <td class="table-required"> no </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description">not a mandatory field, numbers only (no special characters nor alphabet nor special characters), up to 250 char input</td>
+	</tr> 
+	<tr>
+		<td class="table-fieldname"> country_of_residence_id </td>
+    <td class="table-required"> yes </td>
+		<td class="table-data-type"> Integer </td>
+		<td class="table-description">mandatory field + dropdown list box + pre-populate based on the IP Address of the user + editable</td>
+	</tr>          
+	<tr>
+		<td class="table-fieldname"> state_of_residence </td>
+    <td class="table-required"> no </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description">not a mandatory field + free text field alphanumeric + special characters + up to 250 characters</td>
+	</tr>            
+  <tr>
+		<td class="table-fieldname"> nationality_country_id </td>
+    <td class="table-required"> no </td>
+		<td class="table-data-type"> Integer </td>
+		<td class="table-description">not a mandatory field + drop down list box same as what is used in course application form/ student profile</td>
+	</tr> 
+  <tr>
+		<td class="table-fieldname"> preferred_intake </td>
+    <td class="table-required"> no </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description">not a mandatory field + freetext field + 250char limit, no special char restrictions, separated by comma + editable </td>
+	</tr>   
+  <tr>
+		<td class="table-fieldname"> preferred_field_of_study </td>
+    <td class="table-required"> no </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description">not a mandatory field + free text field + alphanumeric + special characters + editable</td>
+	</tr>     
+  <tr>
+		<td class="table-fieldname"> preferred_study_destinations </td>
+    <td class="table-required"> no </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description">not a mandatory field + free text field + alphanumeric + special characters + editable + prepopulate with the country/ies of the course/s. if multiple countries separate with comma.</td>
+	</tr>      
+  <tr>
+		<td class="table-fieldname"> inquiry_for_courses </td>
+    <td class="table-required"> no </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description">
+      Prepopulated PROVIDERNAME : COURSENAME, PROVIDERNAME:COURSENAME + 3 line spaces default just adds up when input becomes longer, max input char 250, no special char validation
+    </td>
+	</tr>     
+  <tr>
+		<td class="table-fieldname"> what_can_we_help_you_with </td>
+    <td class="table-required"> yes </td>
+		<td class="table-data-type"> String </td>
+		<td class="table-description">
+     mandatory field + free text field + alphanumeric + special characters + 3 line spaces default just adds up when input becomes longer/ draggable -- scroll bar on the right side automatically displays if the space is smaller than the input characters.
+    </td>
+	</tr>     
+  <tr>
+		<td class="table-fieldname"> course_ids </td>
+    <td class="table-required"> no </td>
+		<td class="table-data-type"> Object </td>
+		<td class="table-description">
+      This will be used as a reference if any further course based check was asked 
+      in the future.
+    </td>
+	</tr>    
+</table>
+
+### Response 
+
 **Response Body**: 
 
 ```RESPONSE : 
