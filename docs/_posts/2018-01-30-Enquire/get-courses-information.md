@@ -33,34 +33,6 @@ type : 'POST'
 **Response Body**: 
 
 ```RESPONSE : 
-get_courses_information_for_enquiry.response.json
-DETAILS
-ACTIVITY
-Today
-10:29 AM
-
-You edited an item
-Unknown File
-get_courses_information_for_enquiry.response.json
-10:27 AM
-
-You edited an item
-Unknown File
-get_courses_information_for_enquiry.response.json
-Yesterday
-Tue 3:00 PM
-
-You edited an item
-Unknown File
-get_courses_information_for_enquiry.response.json
-Tue 2:46 PM
-
-You uploaded an item
-Unknown File
-get_courses_information_for_enquiry.response.json
-No recorded activity before January 30, 2018
-Closed All selections cleared All selections cleared All selections cleared
-
 {
     "success": true,
     "status": "success",
