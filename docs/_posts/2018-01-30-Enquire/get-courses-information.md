@@ -1,5 +1,5 @@
 ---
-category: Sign Up
+category: Enquire
 endpoint: '/api/enquiry/get_courses_information '
 title: 'Get Courses Information for Enquiry'
 type : 'POST'
@@ -17,54 +17,89 @@ type : 'POST'
 
 ```[
   {
-    "course_id": "cid-1",
-    "campus_id": "123456"
+    "course_id": "cid-mi-101858",
+    "campus_id": "4884"
   },
   {
-    "course_id": "cid-2",
-    "campus_id": "542123"
+    "course_id": "cid-mi-101864",
+    "campus_id": "4884"
   },
   {
-    "course_id": "cid-3",
-    "campus_id": "215412"
+    "course_id": "cid-mi-101865",
+    "campus_id": "4886"
   }
 ]```
 
 **Response Body**: 
 
 ```RESPONSE : 
+get_courses_information_for_enquiry.response.json
+DETAILS
+ACTIVITY
+Today
+10:29 AM
+
+You edited an item
+Unknown File
+get_courses_information_for_enquiry.response.json
+10:27 AM
+
+You edited an item
+Unknown File
+get_courses_information_for_enquiry.response.json
+Yesterday
+Tue 3:00 PM
+
+You edited an item
+Unknown File
+get_courses_information_for_enquiry.response.json
+Tue 2:46 PM
+
+You uploaded an item
+Unknown File
+get_courses_information_for_enquiry.response.json
+No recorded activity before January 30, 2018
+Closed All selections cleared All selections cleared All selections cleared
+
 {
-  "success": true,
-  "status": "success",
-  "actor": "/mock-data",
-  "hostname": "mockness",
-  "reference_data": [
-{
-      "course_id": "cid-1",
-      "course_name": "Sample Course 01",
-      "course_field_of_study" : "Field of Study 01",
-      "campus_id": "123456",
-      "campus_name": "Sample Campus 01",
-      "campus_country": "Australia",
-      "commencement_date": "2016-12-03"
-    },
-    {
-      "course_id": "cid-2",
-      "course_name": "Sample Course 02",
-      "course_field_of_study" : "Field of Study 02",
-      "campus_id": "542123",
-      "campus_name": "Sample Campus 02",
-      "campus_country": "Australia",
-      "commencement_date": "2016-12-03"
-    },
-    {
-      "course_id": "cid-3",
-      "course_name": "Sample Course 03",
-      "course_field_of_study" : "Field of Study 03",
-      "campus_id": "215412",
-      "campus_name": "Sample Campus 03",
-      "campus_country": "Australia",
-      "commencement_date": "2016-12-03"
-    }
-  ]
+    "success": true,
+    "status": "success",
+    "actor": "/api/enquiry/get_courses_information",
+    "hostname": "Pelican-3.local",
+    "reference_data": [
+        {
+            "course_id": "cid-mi-101858",
+            "course_name": "Diploma of Hospitality - Melbourne",
+            "course_field_of_study": "Food And Hospitality",
+            "campus_id": "4884",
+            "campus_name": "Holmes Institute Pty Ltd (Melbourne)",
+            "campus_country": "Australia",
+            "commencement_dates": [
+                "2017-04-17T16:00:00.000Z"
+            ]
+        },
+        {
+            "course_id": "cid-mi-101864",
+            "course_name": "Bachelor of Business - Melbourne",
+            "course_field_of_study": "Business And Management",
+            "campus_id": "4884",
+            "campus_name": "Holmes Institute Pty Ltd (Melbourne)",
+            "campus_country": "Australia",
+            "commencement_dates": [
+                "2017-07-16T16:00:00.000Z",
+                "2017-11-05T16:00:00.000Z",
+                "2017-05-31T16:00:00.000Z",
+                "2017-07-16T16:00:00.000Z"                
+            ]
+        },
+        {
+            "course_id": "cid-mi-101865",
+            "course_name": "Bachelor of Business - Brisbane/Gold Coast",
+            "course_field_of_study": "Business And Management",
+            "campus_id": "4886",
+            "campus_name": "Holmes Institute Pty Ltd (Brisbane)",
+            "campus_country": "Australia",
+            "commencement_dates": []
+        }
+    ]
 }```
