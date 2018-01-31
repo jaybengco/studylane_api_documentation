@@ -32,7 +32,7 @@ type : 'POST'
 
 **Response Body**: 
 
-```
+```RESPONSE : 
 {
     "success": true,
     "status": "success",
