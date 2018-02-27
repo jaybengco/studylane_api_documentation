@@ -46,6 +46,7 @@ type : 'POST'
             "campus_id": "4884",
             "campus_name": "Holmes Institute Pty Ltd (Melbourne)",
             "campus_country": "Australia",
+            "provider_name": "Melbourne University"
             "commencement_dates": [
                 "2017-04-17T16:00:00.000Z"
             ]
@@ -57,6 +58,7 @@ type : 'POST'
             "campus_id": "4884",
             "campus_name": "Holmes Institute Pty Ltd (Melbourne)",
             "campus_country": "Australia",
+            "provider_name": "Melbourne University"
             "commencement_dates": [
                 "2017-07-16T16:00:00.000Z",
                 "2017-11-05T16:00:00.000Z",
@@ -71,6 +73,7 @@ type : 'POST'
             "campus_id": "4886",
             "campus_name": "Holmes Institute Pty Ltd (Brisbane)",
             "campus_country": "Australia",
+            "provider_name": "Melbourne University II"
             "commencement_dates": []
         }
     ]

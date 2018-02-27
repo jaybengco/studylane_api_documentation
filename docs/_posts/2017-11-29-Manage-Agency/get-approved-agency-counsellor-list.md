@@ -32,8 +32,7 @@ type : 'GET'
       "contact_person_last_name": "Doe",
       "contact_person_email": "johnny.doe@yopmail",
       "telephone_number": "+78 870 88900 88",
-      "mobile_number": "+63 045 961 2443",
-	  "total_student_in_process:" "50"
+      "mobile_number": "+63 045 961 2443"
     }
   ]
 }```
@@ -94,11 +93,6 @@ type : 'GET'
 		<td class="table-fieldname"> mobile_number </td>
 		<td class="table-data-type"> String </td>
 		<td class="table-description"> Person mobile number </td>
-	</tr>
-	<tr>
-		<td class="table-fieldname"> total_student_in_process </td>
-		<td class="table-data-type"> String </td>
-		<td class="table-description"> Total students in process status</td>
 	</tr>
 
 </table>
