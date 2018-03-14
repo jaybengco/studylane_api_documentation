@@ -26,14 +26,14 @@ type : 'POST'
     "hostname": "Pelican-3.local",
     "reference_data": [
         {
-            "course_application_id": 1,
+            "course_application_id": 171,
             "status": "Inactive",
             "log_date": "2018-03-12T22:09:57.000Z",
             "log_content": "XXXX from XXXXX, XXXX has been deactivated by XX XX on 13-Mar-2018, 06:09",
             "log_comments": ""
         },
         {
-            "course_application_id": 32,
+            "course_application_id": 171,
             "status": "LoO Issued",
             "log_date": "2017-11-19T16:55:51.000Z",
             "log_content": "Status change from XXX to XXXX for application to XXXXX at XXXX made on Mon Nov 20, 2017 08:55 AM +0800 (Asia/Manila)",
