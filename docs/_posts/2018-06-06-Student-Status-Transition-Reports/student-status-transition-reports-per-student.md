@@ -6,6 +6,10 @@ type : 'POST'
 
 ---
 ### **Description** : Get Student Status Transition Report List
+### Restricted to Roles : 
+* Admin
+* GSP User
+
 
 ### Request
 
